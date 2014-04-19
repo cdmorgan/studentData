@@ -1,0 +1,1311 @@
+"key","year","new students","delay","gim","gic","giu","rim","ric","riu","pim","pic","piu","lost"
+"Chemistry",2000,15,1,0,0,0,7,10,11,7,10,11,4
+"Chemistry",2000,15,2,0,0,0,3,5,7,3,5,7,8
+"Chemistry",2000,15,3,0,0,0,2,5,7,2,5,7,8
+"Chemistry",2000,15,4,0,1,2,2,6,7,2,7,9,6
+"Chemistry",2000,15,5,1,3,5,0,0,0,1,3,5,10
+"Chemistry",2000,15,6,1,3,5,0,0,0,1,3,5,10
+"Chemistry",2000,15,7,1,3,5,0,0,0,1,3,5,10
+"Chemistry",2000,15,8,1,3,5,0,0,0,1,3,5,10
+"Chemistry",2000,15,9,1,3,5,0,0,0,1,3,5,10
+"Chemistry",2000,15,10,1,3,5,0,0,0,1,3,5,10
+"Chemistry",2001,15,1,0,0,0,10,13,13,10,13,13,2
+"Chemistry",2001,15,2,0,0,0,6,7,7,6,7,7,8
+"Chemistry",2001,15,3,0,0,0,4,5,5,4,5,5,10
+"Chemistry",2001,15,4,2,2,2,2,2,2,4,4,4,11
+"Chemistry",2001,15,5,4,4,4,0,2,2,4,6,6,9
+"Chemistry",2001,15,6,4,4,4,0,0,1,4,4,5,10
+"Chemistry",2001,15,7,4,4,4,0,0,1,4,4,5,10
+"Chemistry",2001,15,8,4,4,4,0,0,1,4,4,5,10
+"Chemistry",2001,15,9,4,4,4,0,0,1,4,4,5,10
+"Chemistry",2001,15,10,4,4,4,0,0,1,4,4,5,10
+"Chemistry",2002,10,1,0,0,0,4,8,8,4,8,8,2
+"Chemistry",2002,10,2,0,0,0,4,6,7,4,6,7,3
+"Chemistry",2002,10,3,0,0,0,2,5,6,2,5,6,4
+"Chemistry",2002,10,4,1,1,2,1,3,4,2,4,6,4
+"Chemistry",2002,10,5,2,3,4,0,1,2,2,4,6,4
+"Chemistry",2002,10,6,2,4,5,0,0,0,2,4,5,5
+"Chemistry",2002,10,7,2,4,5,0,0,0,2,4,5,5
+"Chemistry",2002,10,8,2,4,5,0,0,0,2,4,5,5
+"Chemistry",2002,10,9,2,4,5,0,0,0,2,4,5,5
+"Chemistry",2002,10,10,2,4,5,0,0,0,2,4,5,5
+"Chemistry",2003,17,1,0,0,0,13,13,13,13,13,13,4
+"Chemistry",2003,17,2,0,0,0,5,6,9,5,6,9,8
+"Chemistry",2003,17,3,0,0,0,4,5,8,4,5,8,9
+"Chemistry",2003,17,4,2,2,4,1,2,3,3,4,7,10
+"Chemistry",2003,17,5,2,2,5,0,2,2,2,4,7,10
+"Chemistry",2003,17,6,2,3,6,0,1,1,2,4,7,10
+"Chemistry",2003,17,7,2,4,7,0,0,0,2,4,7,10
+"Chemistry",2003,17,8,2,4,7,0,0,0,2,4,7,10
+"Chemistry",2003,17,9,2,4,7,0,0,0,2,4,7,10
+"Chemistry",2003,17,10,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2004,23,1,0,0,0,15,16,17,15,16,17,6
+"Chemistry",2004,23,2,0,0,0,10,12,15,10,12,15,8
+"Chemistry",2004,23,3,0,0,0,8,10,13,8,10,13,10
+"Chemistry",2004,23,4,5,7,9,1,4,7,6,11,16,7
+"Chemistry",2004,23,5,7,10,12,0,1,3,7,11,15,8
+"Chemistry",2004,23,6,7,10,12,0,1,2,7,11,14,9
+"Chemistry",2004,23,7,7,11,13,0,0,1,7,11,14,9
+"Chemistry",2004,23,8,7,11,14,0,0,0,7,11,14,9
+"Chemistry",2004,23,9,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2004,23,10,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2005,18,1,0,0,0,13,14,15,13,14,15,3
+"Chemistry",2005,18,2,0,0,0,7,12,13,7,12,13,5
+"Chemistry",2005,18,3,0,0,0,3,6,12,3,6,12,6
+"Chemistry",2005,18,4,2,4,5,0,4,8,2,8,13,5
+"Chemistry",2005,18,5,2,7,8,0,1,4,2,8,12,6
+"Chemistry",2005,18,6,2,7,10,0,1,2,2,8,12,6
+"Chemistry",2005,18,7,2,8,13,0,0,0,2,8,13,5
+"Chemistry",2005,18,8,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2005,18,9,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2005,18,10,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2006,20,1,0,0,0,15,16,17,15,16,17,3
+"Chemistry",2006,20,2,0,0,0,9,11,12,9,11,12,8
+"Chemistry",2006,20,3,0,0,0,5,7,10,5,7,10,10
+"Chemistry",2006,20,4,1,2,3,3,4,6,4,6,9,11
+"Chemistry",2006,20,5,3,4,6,2,3,3,5,7,9,11
+"Chemistry",2006,20,6,4,6,8,1,1,1,5,7,9,11
+"Chemistry",2006,20,7,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2006,20,8,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2006,20,9,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2006,20,10,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2007,30,1,0,0,0,21,24,26,21,24,26,4
+"Chemistry",2007,30,2,0,0,0,15,18,23,15,18,23,7
+"Chemistry",2007,30,3,0,0,0,8,15,21,8,15,21,9
+"Chemistry",2007,30,4,2,5,6,3,7,13,5,12,19,11
+"Chemistry",2007,30,5,5,12,15,1,1,3,6,13,18,12
+"Chemistry",2007,30,6,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2007,30,7,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2007,30,8,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2007,30,9,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2007,30,10,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2008,29,1,0,0,0,17,19,22,17,19,22,7
+"Chemistry",2008,29,2,0,0,0,12,17,21,12,17,21,8
+"Chemistry",2008,29,3,0,1,1,11,16,20,11,17,21,8
+"Chemistry",2008,29,4,2,4,6,4,12,14,6,16,20,9
+"Chemistry",2008,29,5,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2008,29,6,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2008,29,7,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2008,29,8,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2008,29,9,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2008,29,10,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2009,49,1,0,0,0,24,30,35,24,30,35,14
+"Chemistry",2009,49,2,0,0,0,13,20,30,13,20,30,19
+"Chemistry",2009,49,3,0,0,0,6,14,24,6,14,24,25
+"Chemistry",2009,49,4,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2009,49,5,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2009,49,6,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2009,49,7,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2009,49,8,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2009,49,9,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2009,49,10,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2010,43,1,0,0,0,23,26,32,23,26,32,11
+"Chemistry",2010,43,2,0,0,0,13,20,28,13,20,28,15
+"Chemistry",2010,43,3,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2010,43,4,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2010,43,5,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2010,43,6,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2010,43,7,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2010,43,8,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2010,43,9,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2010,43,10,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,1,0,0,0,37,42,48,37,42,48,8
+"Chemistry",2011,56,2,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,3,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,4,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,5,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,6,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,7,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,8,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,9,"null","null","null","null","null","null","null","null","null","null"
+"Chemistry",2011,56,10,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2000,3,1,0,0,0,2,2,2,2,2,2,1
+"Earth Sciences",2000,3,2,0,0,0,2,2,2,2,2,2,1
+"Earth Sciences",2000,3,3,0,0,0,2,2,2,2,2,2,1
+"Earth Sciences",2000,3,4,1,1,1,1,1,1,2,2,2,1
+"Earth Sciences",2000,3,5,1,1,1,0,0,0,1,1,1,2
+"Earth Sciences",2000,3,6,1,1,1,0,0,0,1,1,1,2
+"Earth Sciences",2000,3,7,1,1,1,0,0,0,1,1,1,2
+"Earth Sciences",2000,3,8,2,2,2,0,0,0,2,2,2,1
+"Earth Sciences",2000,3,9,2,2,2,0,0,0,2,2,2,1
+"Earth Sciences",2000,3,10,2,2,2,0,0,0,2,2,2,1
+"Earth Sciences",2001,2,1,0,0,0,2,2,2,2,2,2,0
+"Earth Sciences",2001,2,2,0,0,0,2,2,2,2,2,2,0
+"Earth Sciences",2001,2,3,0,0,0,2,2,2,2,2,2,0
+"Earth Sciences",2001,2,4,1,1,1,1,1,1,2,2,2,0
+"Earth Sciences",2001,2,5,2,2,2,0,0,0,2,2,2,0
+"Earth Sciences",2001,2,6,2,2,2,0,0,0,2,2,2,0
+"Earth Sciences",2001,2,7,2,2,2,0,0,0,2,2,2,0
+"Earth Sciences",2001,2,8,2,2,2,0,0,0,2,2,2,0
+"Earth Sciences",2001,2,9,2,2,2,0,0,0,2,2,2,0
+"Earth Sciences",2001,2,10,2,2,2,0,0,0,2,2,2,0
+"Earth Sciences",2002,3,1,0,0,0,2,3,3,2,3,3,0
+"Earth Sciences",2002,3,2,0,0,0,0,2,2,0,2,2,1
+"Earth Sciences",2002,3,3,0,0,0,0,2,2,0,2,2,1
+"Earth Sciences",2002,3,4,0,1,1,0,1,1,0,2,2,1
+"Earth Sciences",2002,3,5,0,2,2,0,0,0,0,2,2,1
+"Earth Sciences",2002,3,6,0,2,2,0,0,0,0,2,2,1
+"Earth Sciences",2002,3,7,0,2,2,0,0,0,0,2,2,1
+"Earth Sciences",2002,3,8,0,2,2,0,0,0,0,2,2,1
+"Earth Sciences",2002,3,9,0,2,2,0,0,0,0,2,2,1
+"Earth Sciences",2002,3,10,0,2,2,0,0,0,0,2,2,1
+"Earth Sciences",2003,2,1,0,0,0,0,1,2,0,1,2,0
+"Earth Sciences",2003,2,2,0,0,0,0,2,2,0,2,2,0
+"Earth Sciences",2003,2,3,0,0,0,0,2,2,0,2,2,0
+"Earth Sciences",2003,2,4,0,1,1,0,1,1,0,2,2,0
+"Earth Sciences",2003,2,5,0,2,2,0,0,0,0,2,2,0
+"Earth Sciences",2003,2,6,0,2,2,0,0,0,0,2,2,0
+"Earth Sciences",2003,2,7,0,2,2,0,0,0,0,2,2,0
+"Earth Sciences",2003,2,8,0,2,2,0,0,0,0,2,2,0
+"Earth Sciences",2003,2,9,0,2,2,0,0,0,0,2,2,0
+"Earth Sciences",2003,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2004,3,1,0,0,0,0,2,3,0,2,3,0
+"Earth Sciences",2004,3,2,0,0,0,0,2,3,0,2,3,0
+"Earth Sciences",2004,3,3,0,0,0,0,2,3,0,2,3,0
+"Earth Sciences",2004,3,4,0,2,3,0,0,0,0,2,3,0
+"Earth Sciences",2004,3,5,0,2,3,0,0,0,0,2,3,0
+"Earth Sciences",2004,3,6,0,2,3,0,0,0,0,2,3,0
+"Earth Sciences",2004,3,7,0,2,3,0,0,0,0,2,3,0
+"Earth Sciences",2004,3,8,0,2,3,0,0,0,0,2,3,0
+"Earth Sciences",2004,3,9,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2004,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2005,3,1,0,0,0,2,2,3,2,2,3,0
+"Earth Sciences",2005,3,2,0,0,0,2,3,3,2,3,3,0
+"Earth Sciences",2005,3,3,0,0,0,0,2,2,0,2,2,1
+"Earth Sciences",2005,3,4,0,1,1,1,1,1,1,2,2,1
+"Earth Sciences",2005,3,5,0,1,1,1,1,1,1,2,2,1
+"Earth Sciences",2005,3,6,0,1,1,1,1,1,1,2,2,1
+"Earth Sciences",2005,3,7,0,1,1,1,1,1,1,2,2,1
+"Earth Sciences",2005,3,8,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2005,3,9,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2005,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2006,3,1,0,0,0,2,3,3,2,3,3,0
+"Earth Sciences",2006,3,2,0,0,0,1,2,3,1,2,3,0
+"Earth Sciences",2006,3,3,0,0,0,1,2,3,1,2,3,0
+"Earth Sciences",2006,3,4,0,1,2,1,1,1,1,2,3,0
+"Earth Sciences",2006,3,5,0,1,2,0,1,1,0,2,3,0
+"Earth Sciences",2006,3,6,0,2,3,0,0,0,0,2,3,0
+"Earth Sciences",2006,3,7,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2006,3,8,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2006,3,9,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2006,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2008,11,1,0,0,0,4,6,7,4,6,7,4
+"Earth Sciences",2008,11,2,0,0,0,3,5,6,3,5,6,5
+"Earth Sciences",2008,11,3,0,0,0,3,5,5,3,5,5,6
+"Earth Sciences",2008,11,4,2,2,2,1,3,4,3,5,6,5
+"Earth Sciences",2008,11,5,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2008,11,6,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2008,11,7,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2008,11,8,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2008,11,9,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2008,11,10,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2009,5,1,0,0,0,3,3,3,3,3,3,2
+"Earth Sciences",2009,5,2,0,0,0,2,2,2,2,2,2,3
+"Earth Sciences",2009,5,3,0,0,0,2,2,2,2,2,2,3
+"Earth Sciences",2009,5,4,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2009,5,5,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2009,5,6,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2009,5,7,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2009,5,8,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2009,5,9,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2009,5,10,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2010,3,1,0,0,0,1,2,3,1,2,3,0
+"Earth Sciences",2010,3,2,0,0,0,0,2,2,0,2,2,1
+"Earth Sciences",2010,3,3,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2010,3,4,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2010,3,5,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2010,3,6,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2010,3,7,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2010,3,8,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2010,3,9,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2010,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,1,0,0,0,5,5,5,5,5,5,0
+"Earth Sciences",2011,5,2,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,3,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,4,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,5,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,6,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,7,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,8,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,9,"null","null","null","null","null","null","null","null","null","null"
+"Earth Sciences",2011,5,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2000,22,1,0,0,0,14,19,20,14,19,20,2
+"English",2000,22,2,0,0,0,11,15,17,11,15,17,5
+"English",2000,22,3,0,0,0,10,14,17,10,14,17,5
+"English",2000,22,4,5,6,6,3,5,7,8,11,13,9
+"English",2000,22,5,7,9,11,1,3,3,8,12,14,8
+"English",2000,22,6,9,12,14,1,2,2,10,14,16,6
+"English",2000,22,7,9,12,14,1,2,2,10,14,16,6
+"English",2000,22,8,9,13,15,1,1,1,10,14,16,6
+"English",2000,22,9,10,14,16,0,0,0,10,14,16,6
+"English",2000,22,10,10,14,16,0,0,0,10,14,16,6
+"English",2001,17,1,0,0,0,9,13,13,9,13,13,4
+"English",2001,17,2,0,0,0,7,11,12,7,11,12,5
+"English",2001,17,3,0,0,0,6,11,12,6,11,12,5
+"English",2001,17,4,3,6,7,0,3,3,3,9,10,7
+"English",2001,17,5,3,8,9,0,3,3,3,11,12,5
+"English",2001,17,6,3,8,9,0,1,1,3,9,10,7
+"English",2001,17,7,3,8,9,0,0,0,3,8,9,8
+"English",2001,17,8,3,8,9,0,0,0,3,8,9,8
+"English",2001,17,9,3,8,9,0,0,0,3,8,9,8
+"English",2001,17,10,3,8,9,0,0,0,3,8,9,8
+"English",2002,14,1,0,0,0,9,9,10,9,9,10,4
+"English",2002,14,2,0,0,0,8,9,10,8,9,10,4
+"English",2002,14,3,1,1,1,7,8,9,8,9,10,4
+"English",2002,14,4,5,6,7,3,3,3,8,9,10,4
+"English",2002,14,5,7,8,9,0,0,0,7,8,9,5
+"English",2002,14,6,8,9,10,0,0,0,8,9,10,4
+"English",2002,14,7,8,9,10,0,0,0,8,9,10,4
+"English",2002,14,8,8,9,10,0,0,0,8,9,10,4
+"English",2002,14,9,8,9,10,0,0,0,8,9,10,4
+"English",2002,14,10,8,9,10,0,0,0,8,9,10,4
+"English",2003,20,1,0,0,0,15,16,18,15,16,18,2
+"English",2003,20,2,0,0,0,12,15,16,12,15,16,4
+"English",2003,20,3,0,0,0,9,12,14,9,12,14,6
+"English",2003,20,4,4,7,8,3,3,5,7,10,13,7
+"English",2003,20,5,5,8,10,1,1,2,6,9,12,8
+"English",2003,20,6,6,9,12,0,0,0,6,9,12,8
+"English",2003,20,7,6,9,12,0,0,0,6,9,12,8
+"English",2003,20,8,6,9,12,0,0,0,6,9,12,8
+"English",2003,20,9,6,9,12,0,0,0,6,9,12,8
+"English",2003,20,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2004,30,1,0,0,0,18,21,24,18,21,24,6
+"English",2004,30,2,0,0,0,13,15,19,13,15,19,11
+"English",2004,30,3,1,1,1,10,12,16,11,13,17,13
+"English",2004,30,4,9,9,12,2,3,5,11,12,17,13
+"English",2004,30,5,10,11,15,1,1,2,11,12,17,13
+"English",2004,30,6,10,11,15,0,0,0,10,11,15,15
+"English",2004,30,7,10,11,15,0,0,0,10,11,15,15
+"English",2004,30,8,10,11,15,0,0,0,10,11,15,15
+"English",2004,30,9,"null","null","null","null","null","null","null","null","null","null"
+"English",2004,30,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2005,29,1,0,0,0,19,23,24,19,23,24,5
+"English",2005,29,2,0,0,0,15,22,23,15,22,23,6
+"English",2005,29,3,0,0,0,13,18,21,13,18,21,8
+"English",2005,29,4,6,10,11,5,7,9,11,17,20,9
+"English",2005,29,5,8,14,17,2,2,2,10,16,19,10
+"English",2005,29,6,9,15,18,2,2,3,11,17,21,8
+"English",2005,29,7,10,16,19,1,1,1,11,17,20,9
+"English",2005,29,8,"null","null","null","null","null","null","null","null","null","null"
+"English",2005,29,9,"null","null","null","null","null","null","null","null","null","null"
+"English",2005,29,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2006,37,1,0,0,0,22,25,25,22,25,25,12
+"English",2006,37,2,0,0,0,16,18,20,16,18,20,17
+"English",2006,37,3,0,0,0,17,19,20,17,19,20,17
+"English",2006,37,4,10,12,13,4,5,6,14,17,19,18
+"English",2006,37,5,13,15,16,0,1,2,13,16,18,19
+"English",2006,37,6,13,15,16,0,0,0,13,15,16,21
+"English",2006,37,7,"null","null","null","null","null","null","null","null","null","null"
+"English",2006,37,8,"null","null","null","null","null","null","null","null","null","null"
+"English",2006,37,9,"null","null","null","null","null","null","null","null","null","null"
+"English",2006,37,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2007,27,1,0,0,0,11,18,21,11,18,21,6
+"English",2007,27,2,0,0,0,9,16,16,9,16,16,11
+"English",2007,27,3,0,0,0,10,15,16,10,15,16,11
+"English",2007,27,4,5,8,8,5,7,8,10,15,16,11
+"English",2007,27,5,9,14,14,1,2,2,10,16,16,11
+"English",2007,27,6,"null","null","null","null","null","null","null","null","null","null"
+"English",2007,27,7,"null","null","null","null","null","null","null","null","null","null"
+"English",2007,27,8,"null","null","null","null","null","null","null","null","null","null"
+"English",2007,27,9,"null","null","null","null","null","null","null","null","null","null"
+"English",2007,27,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2008,38,1,0,0,0,25,27,30,25,27,30,8
+"English",2008,38,2,0,0,0,20,22,26,20,22,26,12
+"English",2008,38,3,1,1,1,16,19,23,17,20,24,14
+"English",2008,38,4,12,13,14,4,7,9,16,20,23,15
+"English",2008,38,5,"null","null","null","null","null","null","null","null","null","null"
+"English",2008,38,6,"null","null","null","null","null","null","null","null","null","null"
+"English",2008,38,7,"null","null","null","null","null","null","null","null","null","null"
+"English",2008,38,8,"null","null","null","null","null","null","null","null","null","null"
+"English",2008,38,9,"null","null","null","null","null","null","null","null","null","null"
+"English",2008,38,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2009,38,1,0,0,0,30,33,33,30,33,33,5
+"English",2009,38,2,0,0,0,24,26,29,24,26,29,9
+"English",2009,38,3,1,1,1,21,25,27,22,26,28,10
+"English",2009,38,4,"null","null","null","null","null","null","null","null","null","null"
+"English",2009,38,5,"null","null","null","null","null","null","null","null","null","null"
+"English",2009,38,6,"null","null","null","null","null","null","null","null","null","null"
+"English",2009,38,7,"null","null","null","null","null","null","null","null","null","null"
+"English",2009,38,8,"null","null","null","null","null","null","null","null","null","null"
+"English",2009,38,9,"null","null","null","null","null","null","null","null","null","null"
+"English",2009,38,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2010,35,1,0,0,0,19,21,23,19,21,23,12
+"English",2010,35,2,0,0,0,14,17,21,14,17,21,14
+"English",2010,35,3,"null","null","null","null","null","null","null","null","null","null"
+"English",2010,35,4,"null","null","null","null","null","null","null","null","null","null"
+"English",2010,35,5,"null","null","null","null","null","null","null","null","null","null"
+"English",2010,35,6,"null","null","null","null","null","null","null","null","null","null"
+"English",2010,35,7,"null","null","null","null","null","null","null","null","null","null"
+"English",2010,35,8,"null","null","null","null","null","null","null","null","null","null"
+"English",2010,35,9,"null","null","null","null","null","null","null","null","null","null"
+"English",2010,35,10,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,1,0,0,0,25,27,30,25,27,30,8
+"English",2011,38,2,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,3,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,4,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,5,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,6,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,7,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,8,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,9,"null","null","null","null","null","null","null","null","null","null"
+"English",2011,38,10,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2000,1,1,0,0,0,1,1,1,1,1,1,0
+"Geography",2000,1,2,0,0,0,1,1,1,1,1,1,0
+"Geography",2000,1,3,0,0,0,1,1,1,1,1,1,0
+"Geography",2000,1,4,1,1,1,0,0,0,1,1,1,0
+"Geography",2000,1,5,1,1,1,0,0,0,1,1,1,0
+"Geography",2000,1,6,1,1,1,0,0,0,1,1,1,0
+"Geography",2000,1,7,1,1,1,0,0,0,1,1,1,0
+"Geography",2000,1,8,1,1,1,0,0,0,1,1,1,0
+"Geography",2000,1,9,1,1,1,0,0,0,1,1,1,0
+"Geography",2000,1,10,1,1,1,0,0,0,1,1,1,0
+"Geography",2001,1,1,0,0,0,1,1,1,1,1,1,0
+"Geography",2001,1,2,0,0,0,0,0,0,0,0,0,1
+"Geography",2001,1,3,0,0,0,1,1,1,1,1,1,0
+"Geography",2001,1,4,0,0,0,1,1,1,1,1,1,0
+"Geography",2001,1,5,1,1,1,0,0,0,1,1,1,0
+"Geography",2001,1,6,1,1,1,0,0,0,1,1,1,0
+"Geography",2001,1,7,1,1,1,0,0,0,1,1,1,0
+"Geography",2001,1,8,1,1,1,0,0,0,1,1,1,0
+"Geography",2001,1,9,1,1,1,0,0,0,1,1,1,0
+"Geography",2001,1,10,1,1,1,0,0,0,1,1,1,0
+"Geography",2002,3,1,0,0,0,2,3,3,2,3,3,0
+"Geography",2002,3,2,0,0,0,0,0,0,0,0,0,3
+"Geography",2002,3,3,0,0,0,1,1,1,1,1,1,2
+"Geography",2002,3,4,0,0,0,1,1,1,1,1,1,2
+"Geography",2002,3,5,0,0,0,1,1,1,1,1,1,2
+"Geography",2002,3,6,0,0,0,0,0,0,0,0,0,3
+"Geography",2002,3,7,0,0,0,0,0,0,0,0,0,3
+"Geography",2002,3,8,0,0,0,0,0,0,0,0,0,3
+"Geography",2002,3,9,0,0,0,0,0,0,0,0,0,3
+"Geography",2002,3,10,0,0,0,0,0,0,0,0,0,3
+"Geography",2003,2,1,0,0,0,2,2,2,2,2,2,0
+"Geography",2003,2,2,0,0,0,2,2,2,2,2,2,0
+"Geography",2003,2,3,1,1,1,0,0,0,1,1,1,1
+"Geography",2003,2,4,2,2,2,0,0,0,2,2,2,0
+"Geography",2003,2,5,2,2,2,0,0,0,2,2,2,0
+"Geography",2003,2,6,2,2,2,0,0,0,2,2,2,0
+"Geography",2003,2,7,2,2,2,0,0,0,2,2,2,0
+"Geography",2003,2,8,2,2,2,0,0,0,2,2,2,0
+"Geography",2003,2,9,2,2,2,0,0,0,2,2,2,0
+"Geography",2003,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2004,1,1,0,0,0,1,1,1,1,1,1,0
+"Geography",2004,1,2,0,0,0,1,1,1,1,1,1,0
+"Geography",2004,1,3,1,1,1,0,0,0,1,1,1,0
+"Geography",2004,1,4,1,1,1,0,0,0,1,1,1,0
+"Geography",2004,1,5,1,1,1,0,0,0,1,1,1,0
+"Geography",2004,1,6,1,1,1,0,0,0,1,1,1,0
+"Geography",2004,1,7,1,1,1,0,0,0,1,1,1,0
+"Geography",2004,1,8,1,1,1,0,0,0,1,1,1,0
+"Geography",2004,1,9,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2004,1,10,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2005,2,1,0,0,0,2,2,2,2,2,2,0
+"Geography",2005,2,2,0,0,0,1,1,1,1,1,1,1
+"Geography",2005,2,3,0,0,0,1,1,1,1,1,1,1
+"Geography",2005,2,4,0,0,0,1,1,1,1,1,1,1
+"Geography",2005,2,5,0,0,0,1,1,1,1,1,1,1
+"Geography",2005,2,6,1,1,1,0,0,0,1,1,1,1
+"Geography",2005,2,7,1,1,1,0,0,0,1,1,1,1
+"Geography",2005,2,8,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2005,2,9,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2005,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2006,2,1,0,0,0,0,0,1,0,0,1,1
+"Geography",2006,2,2,0,0,0,0,0,1,0,0,1,1
+"Geography",2006,2,3,0,0,0,0,0,1,0,0,1,1
+"Geography",2006,2,4,1,1,1,0,0,0,1,1,1,1
+"Geography",2006,2,5,1,1,1,0,0,0,1,1,1,1
+"Geography",2006,2,6,1,1,1,0,0,0,1,1,1,1
+"Geography",2006,2,7,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2006,2,8,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2006,2,9,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2006,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2007,2,1,0,0,0,1,1,1,1,1,1,1
+"Geography",2007,2,2,0,0,0,1,1,1,1,1,1,1
+"Geography",2007,2,3,0,0,0,1,1,1,1,1,1,1
+"Geography",2007,2,4,0,0,0,1,1,1,1,1,1,1
+"Geography",2007,2,5,1,1,1,0,0,0,1,1,1,1
+"Geography",2007,2,6,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2007,2,7,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2007,2,8,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2007,2,9,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2007,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2009,5,1,0,0,0,4,4,4,4,4,4,1
+"Geography",2009,5,2,0,0,0,3,3,3,3,3,3,2
+"Geography",2009,5,3,1,1,1,2,2,2,3,3,3,2
+"Geography",2009,5,4,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2009,5,5,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2009,5,6,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2009,5,7,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2009,5,8,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2009,5,9,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2009,5,10,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2010,2,1,0,0,0,2,2,2,2,2,2,0
+"Geography",2010,2,2,0,0,0,2,2,2,2,2,2,0
+"Geography",2010,2,3,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2010,2,4,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2010,2,5,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2010,2,6,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2010,2,7,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2010,2,8,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2010,2,9,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2010,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,1,0,0,0,1,1,2,1,1,2,1
+"Geography",2011,3,2,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,3,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,4,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,5,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,6,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,7,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,8,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,9,"null","null","null","null","null","null","null","null","null","null"
+"Geography",2011,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2000,1,1,0,0,0,1,1,1,1,1,1,0
+"Geology",2000,1,2,0,0,0,0,0,0,0,0,0,1
+"Geology",2000,1,3,0,0,0,0,0,0,0,0,0,1
+"Geology",2000,1,4,0,0,0,0,0,0,0,0,0,1
+"Geology",2000,1,5,0,0,0,0,0,0,0,0,0,1
+"Geology",2000,1,6,0,0,0,0,0,0,0,0,0,1
+"Geology",2000,1,7,0,0,0,0,0,0,0,0,0,1
+"Geology",2000,1,8,0,0,0,0,0,0,0,0,0,1
+"Geology",2000,1,9,0,0,0,0,0,0,0,0,0,1
+"Geology",2000,1,10,0,0,0,0,0,0,0,0,0,1
+"Geology",2003,1,1,0,0,0,1,1,1,1,1,1,0
+"Geology",2003,1,2,0,0,0,1,1,1,1,1,1,0
+"Geology",2003,1,3,0,0,0,1,1,1,1,1,1,0
+"Geology",2003,1,4,1,1,1,0,0,0,1,1,1,0
+"Geology",2003,1,5,1,1,1,0,0,0,1,1,1,0
+"Geology",2003,1,6,1,1,1,0,0,0,1,1,1,0
+"Geology",2003,1,7,1,1,1,0,0,0,1,1,1,0
+"Geology",2003,1,8,1,1,1,0,0,0,1,1,1,0
+"Geology",2003,1,9,1,1,1,0,0,0,1,1,1,0
+"Geology",2003,1,10,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2004,1,1,0,0,0,1,1,1,1,1,1,0
+"Geology",2004,1,2,0,0,0,0,1,1,0,1,1,0
+"Geology",2004,1,3,0,0,0,0,0,1,0,0,1,0
+"Geology",2004,1,4,0,0,0,0,0,1,0,0,1,0
+"Geology",2004,1,5,0,0,0,0,0,1,0,0,1,0
+"Geology",2004,1,6,0,0,1,0,0,0,0,0,1,0
+"Geology",2004,1,7,0,0,1,0,0,0,0,0,1,0
+"Geology",2004,1,8,0,0,1,0,0,0,0,0,1,0
+"Geology",2004,1,9,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2004,1,10,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2005,2,1,0,0,0,1,2,2,1,2,2,0
+"Geology",2005,2,2,0,0,0,1,1,2,1,1,2,0
+"Geology",2005,2,3,0,0,0,1,1,2,1,1,2,0
+"Geology",2005,2,4,0,0,0,0,0,1,0,0,1,1
+"Geology",2005,2,5,1,1,2,0,0,0,1,1,2,0
+"Geology",2005,2,6,1,1,2,0,0,0,1,1,2,0
+"Geology",2005,2,7,1,1,2,0,0,0,1,1,2,0
+"Geology",2005,2,8,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2005,2,9,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2005,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2006,4,1,0,0,0,3,3,3,3,3,3,1
+"Geology",2006,4,2,0,0,0,2,3,3,2,3,3,1
+"Geology",2006,4,3,0,0,0,2,3,3,2,3,3,1
+"Geology",2006,4,4,0,0,0,2,3,3,2,3,3,1
+"Geology",2006,4,5,1,2,2,1,2,2,2,4,4,0
+"Geology",2006,4,6,1,3,3,0,0,1,1,3,4,0
+"Geology",2006,4,7,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2006,4,8,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2006,4,9,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2006,4,10,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2008,1,1,0,0,0,1,1,1,1,1,1,0
+"Geology",2008,1,2,0,0,0,0,1,1,0,1,1,0
+"Geology",2008,1,3,0,0,0,0,1,1,0,1,1,0
+"Geology",2008,1,4,0,0,0,0,0,0,0,0,0,1
+"Geology",2008,1,5,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2008,1,6,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2008,1,7,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2008,1,8,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2008,1,9,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2008,1,10,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2010,4,1,0,0,0,4,4,4,4,4,4,0
+"Geology",2010,4,2,0,0,0,2,2,2,2,2,2,2
+"Geology",2010,4,3,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2010,4,4,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2010,4,5,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2010,4,6,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2010,4,7,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2010,4,8,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2010,4,9,"null","null","null","null","null","null","null","null","null","null"
+"Geology",2010,4,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2000,11,1,0,0,0,5,10,11,5,10,11,0
+"Mathematics",2000,11,2,0,0,0,4,6,10,4,6,10,1
+"Mathematics",2000,11,3,0,1,1,4,6,9,4,7,10,1
+"Mathematics",2000,11,4,4,5,6,1,1,3,5,6,9,2
+"Mathematics",2000,11,5,5,6,8,0,0,1,5,6,9,2
+"Mathematics",2000,11,6,5,6,8,0,1,2,5,7,10,1
+"Mathematics",2000,11,7,5,6,8,0,1,1,5,7,9,2
+"Mathematics",2000,11,8,5,6,8,0,0,0,5,6,8,3
+"Mathematics",2000,11,9,5,6,8,0,0,0,5,6,8,3
+"Mathematics",2000,11,10,5,6,8,0,0,0,5,6,8,3
+"Mathematics",2001,12,1,0,0,0,8,9,11,8,9,11,1
+"Mathematics",2001,12,2,0,0,0,4,6,8,4,6,8,4
+"Mathematics",2001,12,3,0,0,0,4,8,10,4,8,10,2
+"Mathematics",2001,12,4,2,3,4,2,5,6,4,8,10,2
+"Mathematics",2001,12,5,2,5,7,2,2,3,4,7,10,2
+"Mathematics",2001,12,6,2,5,7,0,0,1,2,5,8,4
+"Mathematics",2001,12,7,2,5,9,0,0,0,2,5,9,3
+"Mathematics",2001,12,8,2,5,9,0,0,0,2,5,9,3
+"Mathematics",2001,12,9,2,5,9,0,0,0,2,5,9,3
+"Mathematics",2001,12,10,2,5,9,0,0,0,2,5,9,3
+"Mathematics",2002,15,1,0,0,0,6,6,10,6,6,10,5
+"Mathematics",2002,15,2,0,0,0,6,6,9,6,6,9,6
+"Mathematics",2002,15,3,0,0,0,6,6,9,6,6,9,6
+"Mathematics",2002,15,4,3,3,4,2,2,4,5,5,8,7
+"Mathematics",2002,15,5,5,5,7,1,1,2,6,6,9,6
+"Mathematics",2002,15,6,5,5,8,1,1,1,6,6,9,6
+"Mathematics",2002,15,7,5,5,8,1,1,2,6,6,10,5
+"Mathematics",2002,15,8,5,5,8,1,1,2,6,6,10,5
+"Mathematics",2002,15,9,5,5,8,0,0,0,5,5,8,7
+"Mathematics",2002,15,10,5,5,8,0,0,0,5,5,8,7
+"Mathematics",2003,20,1,0,0,0,15,16,18,15,16,18,2
+"Mathematics",2003,20,2,0,0,0,11,13,15,11,13,15,5
+"Mathematics",2003,20,3,0,0,0,10,12,14,10,12,14,6
+"Mathematics",2003,20,4,6,6,7,3,6,7,9,12,14,6
+"Mathematics",2003,20,5,8,9,11,0,0,0,8,9,11,9
+"Mathematics",2003,20,6,8,9,11,0,0,0,8,9,11,9
+"Mathematics",2003,20,7,8,9,11,0,0,0,8,9,11,9
+"Mathematics",2003,20,8,8,9,11,0,0,0,8,9,11,9
+"Mathematics",2003,20,9,8,9,11,1,1,1,9,10,12,8
+"Mathematics",2003,20,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2004,21,1,0,0,0,16,18,18,16,18,18,3
+"Mathematics",2004,21,2,0,0,0,9,11,13,9,11,13,8
+"Mathematics",2004,21,3,0,0,0,10,13,14,10,13,14,7
+"Mathematics",2004,21,4,4,6,7,3,5,7,7,11,14,7
+"Mathematics",2004,21,5,6,10,11,3,4,4,9,14,15,6
+"Mathematics",2004,21,6,6,12,13,2,2,2,8,14,15,6
+"Mathematics",2004,21,7,6,12,13,0,0,0,6,12,13,8
+"Mathematics",2004,21,8,6,12,13,0,0,0,6,12,13,8
+"Mathematics",2004,21,9,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2004,21,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2005,32,1,0,0,0,22,23,27,22,23,27,5
+"Mathematics",2005,32,2,0,0,0,11,12,21,11,12,21,11
+"Mathematics",2005,32,3,0,0,0,10,11,20,10,11,20,12
+"Mathematics",2005,32,4,8,9,15,2,2,4,10,11,19,13
+"Mathematics",2005,32,5,8,9,16,1,1,3,9,10,19,13
+"Mathematics",2005,32,6,8,10,17,0,1,2,8,11,19,13
+"Mathematics",2005,32,7,9,11,19,0,1,1,9,12,20,12
+"Mathematics",2005,32,8,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2005,32,9,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2005,32,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2006,17,1,0,0,0,14,14,16,14,14,16,1
+"Mathematics",2006,17,2,0,0,0,13,13,15,13,13,15,2
+"Mathematics",2006,17,3,0,0,0,8,11,14,8,11,14,3
+"Mathematics",2006,17,4,7,7,8,0,3,5,7,10,13,4
+"Mathematics",2006,17,5,8,9,11,0,2,2,8,11,13,4
+"Mathematics",2006,17,6,8,10,12,0,1,1,8,11,13,4
+"Mathematics",2006,17,7,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2006,17,8,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2006,17,9,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2006,17,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2007,21,1,0,0,0,13,13,18,13,13,18,3
+"Mathematics",2007,21,2,0,0,0,3,5,13,3,5,13,8
+"Mathematics",2007,21,3,0,0,0,1,3,11,1,3,11,10
+"Mathematics",2007,21,4,1,2,6,0,1,6,1,3,12,9
+"Mathematics",2007,21,5,1,3,9,0,0,1,1,3,10,11
+"Mathematics",2007,21,6,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2007,21,7,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2007,21,8,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2007,21,9,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2007,21,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2008,21,1,0,0,0,14,14,16,14,14,16,5
+"Mathematics",2008,21,2,0,0,0,8,11,15,8,11,15,6
+"Mathematics",2008,21,3,0,0,0,6,10,15,6,10,15,6
+"Mathematics",2008,21,4,3,3,5,2,6,9,5,9,14,7
+"Mathematics",2008,21,5,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2008,21,6,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2008,21,7,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2008,21,8,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2008,21,9,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2008,21,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2009,22,1,0,0,0,11,11,12,11,11,12,10
+"Mathematics",2009,22,2,0,0,0,5,5,12,5,5,12,10
+"Mathematics",2009,22,3,0,0,0,4,4,12,4,4,12,10
+"Mathematics",2009,22,4,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2009,22,5,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2009,22,6,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2009,22,7,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2009,22,8,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2009,22,9,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2009,22,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2010,20,1,0,0,0,8,11,15,8,11,15,5
+"Mathematics",2010,20,2,0,0,0,6,10,14,6,10,14,6
+"Mathematics",2010,20,3,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2010,20,4,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2010,20,5,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2010,20,6,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2010,20,7,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2010,20,8,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2010,20,9,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2010,20,10,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,1,0,0,0,18,19,21,18,19,21,7
+"Mathematics",2011,28,2,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,3,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,4,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,5,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,6,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,7,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,8,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,9,"null","null","null","null","null","null","null","null","null","null"
+"Mathematics",2011,28,10,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2002,1,1,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2002,1,2,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2002,1,3,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2002,1,4,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2002,1,5,1,1,1,0,0,0,1,1,1,0
+"Philosophy",2002,1,6,1,1,1,0,0,0,1,1,1,0
+"Philosophy",2002,1,7,1,1,1,0,0,0,1,1,1,0
+"Philosophy",2002,1,8,1,1,1,0,0,0,1,1,1,0
+"Philosophy",2002,1,9,1,1,1,0,0,0,1,1,1,0
+"Philosophy",2002,1,10,1,1,1,0,0,0,1,1,1,0
+"Philosophy",2004,2,1,0,0,0,1,1,1,1,1,1,1
+"Philosophy",2004,2,2,0,0,0,0,1,1,0,1,1,1
+"Philosophy",2004,2,3,0,0,0,0,1,1,0,1,1,1
+"Philosophy",2004,2,4,0,0,0,0,1,1,0,1,1,1
+"Philosophy",2004,2,5,0,0,0,1,1,1,1,1,1,1
+"Philosophy",2004,2,6,1,1,1,0,0,0,1,1,1,1
+"Philosophy",2004,2,7,1,1,1,0,0,0,1,1,1,1
+"Philosophy",2004,2,8,1,1,1,0,0,0,1,1,1,1
+"Philosophy",2004,2,9,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2004,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2005,1,1,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2005,1,2,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2005,1,3,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2005,1,4,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2005,1,5,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2005,1,6,0,0,0,0,0,0,0,0,0,1
+"Philosophy",2005,1,7,0,0,0,0,0,0,0,0,0,1
+"Philosophy",2005,1,8,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2005,1,9,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2005,1,10,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2007,1,1,0,0,0,1,1,1,1,1,1,0
+"Philosophy",2007,1,2,0,0,0,0,0,0,0,0,0,1
+"Philosophy",2007,1,3,0,0,0,0,0,0,0,0,0,1
+"Philosophy",2007,1,4,0,0,0,0,0,0,0,0,0,1
+"Philosophy",2007,1,5,0,0,0,0,0,0,0,0,0,1
+"Philosophy",2007,1,6,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2007,1,7,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2007,1,8,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2007,1,9,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2007,1,10,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2008,2,1,0,0,0,1,2,2,1,2,2,0
+"Philosophy",2008,2,2,0,0,0,0,1,2,0,1,2,0
+"Philosophy",2008,2,3,0,0,0,0,1,2,0,1,2,0
+"Philosophy",2008,2,4,0,0,0,0,1,1,0,1,1,1
+"Philosophy",2008,2,5,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2008,2,6,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2008,2,7,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2008,2,8,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2008,2,9,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2008,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2009,3,1,0,0,0,1,2,2,1,2,2,1
+"Philosophy",2009,3,2,0,0,0,0,1,1,0,1,1,2
+"Philosophy",2009,3,3,0,0,0,0,1,1,0,1,1,2
+"Philosophy",2009,3,4,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2009,3,5,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2009,3,6,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2009,3,7,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2009,3,8,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2009,3,9,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2009,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2010,2,1,0,0,0,1,1,1,1,1,1,1
+"Philosophy",2010,2,2,0,0,0,1,1,1,1,1,1,1
+"Philosophy",2010,2,3,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2010,2,4,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2010,2,5,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2010,2,6,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2010,2,7,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2010,2,8,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2010,2,9,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2010,2,10,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,1,0,0,0,0,1,1,0,1,1,2
+"Philosophy",2011,3,2,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,3,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,4,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,5,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,6,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,7,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,8,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,9,"null","null","null","null","null","null","null","null","null","null"
+"Philosophy",2011,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2000,2,1,0,0,0,2,2,2,2,2,2,0
+"Physics",2000,2,2,0,0,0,2,2,2,2,2,2,0
+"Physics",2000,2,3,0,0,0,2,2,2,2,2,2,0
+"Physics",2000,2,4,2,2,2,0,0,0,2,2,2,0
+"Physics",2000,2,5,2,2,2,0,0,0,2,2,2,0
+"Physics",2000,2,6,2,2,2,0,0,0,2,2,2,0
+"Physics",2000,2,7,2,2,2,0,0,0,2,2,2,0
+"Physics",2000,2,8,2,2,2,0,0,0,2,2,2,0
+"Physics",2000,2,9,2,2,2,0,0,0,2,2,2,0
+"Physics",2000,2,10,2,2,2,0,0,0,2,2,2,0
+"Physics",2001,3,1,0,0,0,2,3,3,2,3,3,0
+"Physics",2001,3,2,0,0,0,1,3,3,1,3,3,0
+"Physics",2001,3,3,0,0,0,1,2,2,1,2,2,1
+"Physics",2001,3,4,0,1,1,0,0,0,0,1,1,2
+"Physics",2001,3,5,0,0,0,0,0,0,0,0,0,3
+"Physics",2001,3,6,0,1,1,0,1,1,0,2,2,1
+"Physics",2001,3,7,0,2,2,0,0,0,0,2,2,1
+"Physics",2001,3,8,0,2,2,0,0,0,0,2,2,1
+"Physics",2001,3,9,0,2,2,0,0,0,0,2,2,1
+"Physics",2001,3,10,0,2,2,0,0,0,0,2,2,1
+"Physics",2002,5,1,0,0,0,1,1,2,1,1,2,3
+"Physics",2002,5,2,0,0,0,2,2,2,2,2,2,3
+"Physics",2002,5,3,0,0,0,2,2,2,2,2,2,3
+"Physics",2002,5,4,0,0,0,1,1,1,1,1,1,4
+"Physics",2002,5,5,1,1,1,0,0,0,1,1,1,4
+"Physics",2002,5,6,1,1,1,0,1,1,1,2,2,3
+"Physics",2002,5,7,1,1,1,0,0,0,1,1,1,4
+"Physics",2002,5,8,1,1,1,0,0,0,1,1,1,4
+"Physics",2002,5,9,1,1,1,0,0,0,1,1,1,4
+"Physics",2002,5,10,1,1,1,0,0,0,1,1,1,4
+"Physics",2003,3,1,0,0,0,2,2,2,2,2,2,1
+"Physics",2003,3,2,0,0,0,2,2,2,2,2,2,1
+"Physics",2003,3,3,0,0,0,2,2,2,2,2,2,1
+"Physics",2003,3,4,1,1,1,0,1,1,1,2,2,1
+"Physics",2003,3,5,2,2,2,0,0,0,2,2,2,1
+"Physics",2003,3,6,2,2,2,0,0,0,2,2,2,1
+"Physics",2003,3,7,2,2,2,0,0,0,2,2,2,1
+"Physics",2003,3,8,2,2,2,0,0,0,2,2,2,1
+"Physics",2003,3,9,2,2,2,0,0,0,2,2,2,1
+"Physics",2003,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2005,4,1,0,0,0,1,2,3,1,2,3,1
+"Physics",2005,4,2,0,0,0,1,2,2,1,2,2,2
+"Physics",2005,4,3,0,0,0,0,0,0,0,0,0,4
+"Physics",2005,4,4,0,0,0,0,0,0,0,0,0,4
+"Physics",2005,4,5,0,0,0,0,0,0,0,0,0,4
+"Physics",2005,4,6,0,0,0,0,0,0,0,0,0,4
+"Physics",2005,4,7,0,0,0,0,0,0,0,0,0,4
+"Physics",2005,4,8,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2005,4,9,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2005,4,10,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2006,9,1,0,0,0,5,5,5,5,5,5,4
+"Physics",2006,9,2,0,0,0,4,4,4,4,4,4,5
+"Physics",2006,9,3,0,0,0,4,4,4,4,4,4,5
+"Physics",2006,9,4,0,0,0,2,3,3,2,3,3,6
+"Physics",2006,9,5,1,2,2,1,1,1,2,3,3,6
+"Physics",2006,9,6,1,2,2,1,1,1,2,3,3,6
+"Physics",2006,9,7,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2006,9,8,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2006,9,9,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2006,9,10,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2007,9,1,0,0,0,3,6,8,3,6,8,1
+"Physics",2007,9,2,0,0,0,3,6,6,3,6,6,3
+"Physics",2007,9,3,0,0,0,2,5,5,2,5,5,4
+"Physics",2007,9,4,1,1,1,1,4,4,2,5,5,4
+"Physics",2007,9,5,2,2,2,0,2,2,2,4,4,5
+"Physics",2007,9,6,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2007,9,7,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2007,9,8,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2007,9,9,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2007,9,10,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2008,5,1,0,0,0,2,2,2,2,2,2,3
+"Physics",2008,5,2,0,0,0,1,1,1,1,1,1,4
+"Physics",2008,5,3,0,0,0,1,1,1,1,1,1,4
+"Physics",2008,5,4,0,0,0,0,0,0,0,0,0,5
+"Physics",2008,5,5,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2008,5,6,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2008,5,7,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2008,5,8,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2008,5,9,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2008,5,10,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2009,11,1,0,0,0,9,9,10,9,9,10,1
+"Physics",2009,11,2,0,0,0,4,8,10,4,8,10,1
+"Physics",2009,11,3,0,1,1,3,7,9,3,8,10,1
+"Physics",2009,11,4,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2009,11,5,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2009,11,6,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2009,11,7,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2009,11,8,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2009,11,9,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2009,11,10,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2010,15,1,0,0,0,10,13,14,10,13,14,1
+"Physics",2010,15,2,0,0,0,7,11,12,7,11,12,3
+"Physics",2010,15,3,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2010,15,4,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2010,15,5,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2010,15,6,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2010,15,7,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2010,15,8,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2010,15,9,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2010,15,10,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,1,0,0,0,7,8,10,7,8,10,1
+"Physics",2011,11,2,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,3,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,4,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,5,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,6,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,7,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,8,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,9,"null","null","null","null","null","null","null","null","null","null"
+"Physics",2011,11,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2000,32,1,0,0,0,23,24,27,23,24,27,5
+"Political Science",2000,32,2,0,0,0,15,19,23,15,19,23,9
+"Political Science",2000,32,3,0,1,1,12,16,19,12,17,20,12
+"Political Science",2000,32,4,7,12,14,6,7,9,13,19,23,9
+"Political Science",2000,32,5,10,15,17,4,4,6,14,19,23,9
+"Political Science",2000,32,6,10,15,18,2,2,2,12,17,20,12
+"Political Science",2000,32,7,12,17,20,1,1,2,13,18,22,10
+"Political Science",2000,32,8,12,17,20,1,1,1,13,18,21,11
+"Political Science",2000,32,9,12,17,20,2,2,2,14,19,22,10
+"Political Science",2000,32,10,14,19,22,0,0,0,14,19,22,10
+"Political Science",2001,48,1,0,0,0,33,35,36,33,35,36,12
+"Political Science",2001,48,2,0,0,0,25,29,31,25,29,31,17
+"Political Science",2001,48,3,2,2,2,16,25,27,18,27,29,19
+"Political Science",2001,48,4,9,12,12,9,15,17,18,27,29,19
+"Political Science",2001,48,5,14,22,23,3,4,5,17,26,28,20
+"Political Science",2001,48,6,15,23,24,0,1,2,15,24,26,22
+"Political Science",2001,48,7,16,25,27,0,1,1,16,26,28,20
+"Political Science",2001,48,8,16,25,27,0,1,1,16,26,28,20
+"Political Science",2001,48,9,16,26,28,0,0,0,16,26,28,20
+"Political Science",2001,48,10,16,26,28,0,0,0,16,26,28,20
+"Political Science",2002,42,1,0,0,0,33,35,36,33,35,36,6
+"Political Science",2002,42,2,0,0,0,30,33,34,30,33,34,8
+"Political Science",2002,42,3,2,2,2,24,27,27,26,29,29,13
+"Political Science",2002,42,4,22,24,24,5,7,7,27,31,31,11
+"Political Science",2002,42,5,27,31,31,0,1,1,27,32,32,10
+"Political Science",2002,42,6,27,31,31,1,2,2,28,33,33,9
+"Political Science",2002,42,7,27,31,31,1,1,1,28,32,32,10
+"Political Science",2002,42,8,28,33,33,0,0,0,28,33,33,9
+"Political Science",2002,42,9,28,33,33,0,0,0,28,33,33,9
+"Political Science",2002,42,10,28,33,33,0,1,1,28,34,34,8
+"Political Science",2003,53,1,0,0,0,34,37,38,34,37,38,15
+"Political Science",2003,53,2,0,0,0,20,28,32,20,28,32,21
+"Political Science",2003,53,3,0,0,0,18,26,30,18,26,30,23
+"Political Science",2003,53,4,9,11,13,5,11,12,14,22,25,28
+"Political Science",2003,53,5,15,21,24,0,2,2,15,23,26,27
+"Political Science",2003,53,6,15,23,27,0,0,0,15,23,27,26
+"Political Science",2003,53,7,15,23,27,0,0,0,15,23,27,26
+"Political Science",2003,53,8,15,23,27,0,0,0,15,23,27,26
+"Political Science",2003,53,9,15,23,27,0,0,0,15,23,27,26
+"Political Science",2003,53,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2004,71,1,0,0,0,48,54,59,48,54,59,12
+"Political Science",2004,71,2,0,0,0,36,44,52,36,44,52,19
+"Political Science",2004,71,3,2,3,3,23,35,43,25,38,46,25
+"Political Science",2004,71,4,16,22,28,9,14,17,25,36,45,26
+"Political Science",2004,71,5,22,32,38,4,5,5,26,37,43,28
+"Political Science",2004,71,6,23,34,40,0,0,0,23,34,40,31
+"Political Science",2004,71,7,24,35,41,0,2,3,24,37,44,27
+"Political Science",2004,71,8,24,35,41,0,1,2,24,36,43,28
+"Political Science",2004,71,9,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2004,71,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2005,67,1,0,0,0,43,49,53,43,49,53,14
+"Political Science",2005,67,2,0,0,1,21,35,43,21,35,44,23
+"Political Science",2005,67,3,4,6,7,15,27,36,19,33,43,24
+"Political Science",2005,67,4,10,13,17,8,17,24,18,30,41,26
+"Political Science",2005,67,5,15,25,33,0,4,5,15,29,38,29
+"Political Science",2005,67,6,15,29,38,0,3,3,15,32,41,26
+"Political Science",2005,67,7,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2005,67,8,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2005,67,9,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2005,67,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2006,56,1,0,0,0,41,46,47,41,46,47,9
+"Political Science",2006,56,2,0,0,0,32,43,46,32,43,46,10
+"Political Science",2006,56,3,0,0,0,29,40,42,29,40,42,14
+"Political Science",2006,56,4,14,19,20,12,19,20,26,38,40,16
+"Political Science",2006,56,5,23,36,37,3,5,5,26,41,42,14
+"Political Science",2006,56,6,23,36,37,2,4,4,25,40,41,15
+"Political Science",2006,56,7,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2006,56,8,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2006,56,9,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2006,56,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2007,38,1,0,0,0,21,27,29,21,27,29,9
+"Political Science",2007,38,2,0,0,0,17,21,23,17,21,23,15
+"Political Science",2007,38,3,1,1,1,13,16,21,14,17,22,16
+"Political Science",2007,38,4,10,11,10,3,6,9,13,17,19,19
+"Political Science",2007,38,5,13,15,15,1,2,3,14,17,18,20
+"Political Science",2007,38,6,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2007,38,7,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2007,38,8,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2007,38,9,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2007,38,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2008,44,1,0,0,0,30,35,36,30,35,36,8
+"Political Science",2008,44,2,0,0,0,15,26,30,15,26,30,14
+"Political Science",2008,44,3,1,1,1,12,22,26,13,23,27,17
+"Political Science",2008,44,4,6,11,11,7,12,16,13,23,27,17
+"Political Science",2008,44,5,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2008,44,6,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2008,44,7,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2008,44,8,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2008,44,9,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2008,44,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2009,64,1,0,0,0,42,47,51,42,47,51,13
+"Political Science",2009,64,2,0,0,0,30,38,44,30,38,44,20
+"Political Science",2009,64,3,1,2,3,20,37,41,21,39,44,20
+"Political Science",2009,64,4,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2009,64,5,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2009,64,6,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2009,64,7,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2009,64,8,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2009,64,9,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2009,64,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2010,51,1,0,0,0,30,33,38,30,33,38,13
+"Political Science",2010,51,2,0,0,0,18,26,32,18,26,32,19
+"Political Science",2010,51,3,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2010,51,4,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2010,51,5,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2010,51,6,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2010,51,7,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2010,51,8,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2010,51,9,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2010,51,10,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,1,0,0,0,30,32,35,30,32,35,11
+"Political Science",2011,46,2,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,3,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,4,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,5,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,6,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,7,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,8,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,9,"null","null","null","null","null","null","null","null","null","null"
+"Political Science",2011,46,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2000,73,1,0,0,0,42,48,56,42,48,56,17
+"Psychology",2000,73,2,0,0,0,24,32,42,24,32,42,31
+"Psychology",2000,73,3,1,1,1,19,29,39,20,30,40,33
+"Psychology",2000,73,4,13,15,18,6,15,19,19,30,37,36
+"Psychology",2000,73,5,18,27,33,3,6,7,21,33,40,33
+"Psychology",2000,73,6,18,29,35,3,4,5,21,33,40,33
+"Psychology",2000,73,7,18,30,37,1,1,1,19,31,38,35
+"Psychology",2000,73,8,18,30,37,0,0,0,18,30,37,36
+"Psychology",2000,73,9,18,30,37,0,0,0,18,30,37,36
+"Psychology",2000,73,10,18,30,37,0,0,0,18,30,37,36
+"Psychology",2001,68,1,0,0,0,44,52,53,44,52,53,15
+"Psychology",2001,68,2,0,0,0,36,41,48,36,41,48,20
+"Psychology",2001,68,3,0,0,0,33,38,44,33,38,44,24
+"Psychology",2001,68,4,16,21,24,13,14,15,29,35,39,29
+"Psychology",2001,68,5,27,32,36,3,3,4,30,35,40,28
+"Psychology",2001,68,6,29,34,38,1,2,2,30,36,40,28
+"Psychology",2001,68,7,30,36,40,0,0,1,30,36,41,27
+"Psychology",2001,68,8,30,36,40,0,0,1,30,36,41,27
+"Psychology",2001,68,9,30,36,40,0,0,1,30,36,41,27
+"Psychology",2001,68,10,30,36,40,0,0,1,30,36,41,27
+"Psychology",2002,85,1,0,0,0,66,69,74,66,69,74,11
+"Psychology",2002,85,2,0,0,0,42,47,58,42,47,58,27
+"Psychology",2002,85,3,1,1,1,38,45,54,39,46,55,30
+"Psychology",2002,85,4,21,23,25,17,21,29,38,44,54,31
+"Psychology",2002,85,5,31,36,42,2,4,7,33,40,49,36
+"Psychology",2002,85,6,35,41,49,0,4,6,35,45,55,30
+"Psychology",2002,85,7,36,42,51,0,2,3,36,44,54,31
+"Psychology",2002,85,8,36,44,53,0,1,1,36,45,54,31
+"Psychology",2002,85,9,36,44,53,0,1,2,36,45,55,30
+"Psychology",2002,85,10,36,44,53,0,0,1,36,44,54,31
+"Psychology",2003,69,1,0,0,0,49,55,59,49,55,59,10
+"Psychology",2003,69,2,0,0,0,36,44,49,36,44,49,20
+"Psychology",2003,69,3,0,1,1,37,45,51,37,46,52,17
+"Psychology",2003,69,4,14,19,21,15,23,30,29,42,51,18
+"Psychology",2003,69,5,26,35,41,3,7,9,29,42,50,19
+"Psychology",2003,69,6,29,39,46,1,4,5,30,43,51,18
+"Psychology",2003,69,7,30,40,47,1,3,4,31,43,51,18
+"Psychology",2003,69,8,31,42,49,1,2,2,32,44,51,18
+"Psychology",2003,69,9,32,43,50,0,1,1,32,44,51,18
+"Psychology",2003,69,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2004,90,1,0,0,0,61,67,71,61,67,71,19
+"Psychology",2004,90,2,0,0,0,46,57,62,46,57,62,28
+"Psychology",2004,90,3,4,4,4,32,46,51,36,50,55,35
+"Psychology",2004,90,4,21,27,29,15,22,25,36,49,54,36
+"Psychology",2004,90,5,30,40,43,4,7,10,34,47,53,37
+"Psychology",2004,90,6,30,43,49,2,6,7,32,49,56,34
+"Psychology",2004,90,7,30,44,50,2,4,4,32,48,54,36
+"Psychology",2004,90,8,31,45,51,1,4,4,32,49,55,35
+"Psychology",2004,90,9,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2004,90,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2005,110,1,0,0,0,74,80,88,74,80,88,22
+"Psychology",2005,110,2,0,0,0,50,61,71,50,61,71,39
+"Psychology",2005,110,3,1,2,2,39,49,58,40,51,60,50
+"Psychology",2005,110,4,26,33,36,11,18,24,37,51,60,50
+"Psychology",2005,110,5,35,46,51,2,3,5,37,49,56,54
+"Psychology",2005,110,6,36,49,54,1,2,5,37,51,59,51
+"Psychology",2005,110,7,36,49,55,1,2,4,37,51,59,51
+"Psychology",2005,110,8,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2005,110,9,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2005,110,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2006,88,1,0,0,0,54,58,63,54,58,63,25
+"Psychology",2006,88,2,0,0,0,43,48,58,43,48,58,30
+"Psychology",2006,88,3,1,1,2,35,43,52,36,44,54,34
+"Psychology",2006,88,4,20,24,27,13,18,25,33,42,52,36
+"Psychology",2006,88,5,28,34,42,2,5,7,30,39,49,39
+"Psychology",2006,88,6,32,40,48,1,2,4,33,42,52,36
+"Psychology",2006,88,7,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2006,88,8,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2006,88,9,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2006,88,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2007,100,1,0,0,0,66,71,85,66,71,85,15
+"Psychology",2007,100,2,0,0,0,46,51,65,46,51,65,35
+"Psychology",2007,100,3,2,2,2,41,46,61,43,48,63,37
+"Psychology",2007,100,4,22,23,30,14,20,27,36,43,57,43
+"Psychology",2007,100,5,33,37,48,2,5,10,35,42,58,42
+"Psychology",2007,100,6,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2007,100,7,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2007,100,8,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2007,100,9,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2007,100,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2008,115,1,0,0,0,80,84,92,80,84,92,23
+"Psychology",2008,115,2,1,1,1,62,69,81,63,70,82,33
+"Psychology",2008,115,3,2,2,2,56,66,78,58,68,80,35
+"Psychology",2008,115,4,34,39,43,20,29,33,54,68,76,39
+"Psychology",2008,115,5,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2008,115,6,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2008,115,7,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2008,115,8,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2008,115,9,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2008,115,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2009,111,1,0,0,0,72,80,93,72,80,93,18
+"Psychology",2009,111,2,0,0,0,65,74,87,65,74,87,24
+"Psychology",2009,111,3,4,4,4,53,65,74,57,69,78,33
+"Psychology",2009,111,4,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2009,111,5,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2009,111,6,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2009,111,7,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2009,111,8,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2009,111,9,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2009,111,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2010,115,1,0,0,0,65,74,84,65,74,84,31
+"Psychology",2010,115,2,0,0,0,48,63,74,48,63,74,41
+"Psychology",2010,115,3,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2010,115,4,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2010,115,5,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2010,115,6,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2010,115,7,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2010,115,8,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2010,115,9,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2010,115,10,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,1,0,0,0,88,98,107,88,98,107,27
+"Psychology",2011,134,2,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,3,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,4,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,5,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,6,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,7,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,8,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,9,"null","null","null","null","null","null","null","null","null","null"
+"Psychology",2011,134,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2001,1,1,0,0,0,1,1,1,1,1,1,0
+"Sociology",2001,1,2,0,0,0,0,0,1,0,0,1,0
+"Sociology",2001,1,3,0,0,0,0,0,1,0,0,1,0
+"Sociology",2001,1,4,0,0,0,0,0,1,0,0,1,0
+"Sociology",2001,1,5,0,0,1,0,0,0,0,0,1,0
+"Sociology",2001,1,6,0,0,1,0,0,0,0,0,1,0
+"Sociology",2001,1,7,0,0,1,0,0,0,0,0,1,0
+"Sociology",2001,1,8,0,0,1,0,0,0,0,0,1,0
+"Sociology",2001,1,9,0,0,1,0,0,0,0,0,1,0
+"Sociology",2001,1,10,0,0,1,0,0,0,0,0,1,0
+"Sociology",2002,3,1,0,0,0,3,3,3,3,3,3,0
+"Sociology",2002,3,2,0,0,0,1,2,2,1,2,2,1
+"Sociology",2002,3,3,0,0,0,1,2,2,1,2,2,1
+"Sociology",2002,3,4,1,1,1,0,1,1,1,2,2,1
+"Sociology",2002,3,5,1,1,1,0,0,1,1,1,2,1
+"Sociology",2002,3,6,1,2,2,0,0,0,1,2,2,1
+"Sociology",2002,3,7,1,2,2,0,0,0,1,2,2,1
+"Sociology",2002,3,8,1,2,2,0,0,0,1,2,2,1
+"Sociology",2002,3,9,1,2,2,0,0,0,1,2,2,1
+"Sociology",2002,3,10,1,2,2,0,0,0,1,2,2,1
+"Sociology",2003,1,1,0,0,0,1,1,1,1,1,1,0
+"Sociology",2003,1,2,0,0,0,1,1,1,1,1,1,0
+"Sociology",2003,1,3,0,0,0,1,1,1,1,1,1,0
+"Sociology",2003,1,4,1,1,1,0,0,0,1,1,1,0
+"Sociology",2003,1,5,1,1,1,0,0,0,1,1,1,0
+"Sociology",2003,1,6,1,1,1,0,0,0,1,1,1,0
+"Sociology",2003,1,7,1,1,1,0,0,0,1,1,1,0
+"Sociology",2003,1,8,1,1,1,0,0,0,1,1,1,0
+"Sociology",2003,1,9,1,1,1,0,0,0,1,1,1,0
+"Sociology",2003,1,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2004,4,1,0,0,0,1,2,2,1,2,2,2
+"Sociology",2004,4,2,0,0,0,0,1,2,0,1,2,2
+"Sociology",2004,4,3,0,0,0,0,1,2,0,1,2,2
+"Sociology",2004,4,4,0,2,2,0,0,0,0,2,2,2
+"Sociology",2004,4,5,0,2,2,0,0,0,0,2,2,2
+"Sociology",2004,4,6,0,2,2,0,0,0,0,2,2,2
+"Sociology",2004,4,7,0,2,2,0,0,0,0,2,2,2
+"Sociology",2004,4,8,0,2,2,0,0,0,0,2,2,2
+"Sociology",2004,4,9,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2004,4,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2005,4,1,0,0,0,2,2,2,2,2,2,2
+"Sociology",2005,4,2,0,0,0,0,0,0,0,0,0,4
+"Sociology",2005,4,3,0,0,0,0,0,1,0,0,1,3
+"Sociology",2005,4,4,0,0,0,0,0,1,0,0,1,3
+"Sociology",2005,4,5,0,0,0,0,0,1,0,0,1,3
+"Sociology",2005,4,6,0,0,1,0,0,0,0,0,1,3
+"Sociology",2005,4,7,0,0,1,0,0,0,0,0,1,3
+"Sociology",2005,4,8,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2005,4,9,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2005,4,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2006,6,1,0,0,0,5,5,5,5,5,5,1
+"Sociology",2006,6,2,0,0,0,5,5,5,5,5,5,1
+"Sociology",2006,6,3,0,0,0,4,4,4,4,4,4,2
+"Sociology",2006,6,4,2,3,3,1,1,1,3,4,4,2
+"Sociology",2006,6,5,2,3,3,0,0,0,2,3,3,3
+"Sociology",2006,6,6,2,3,3,0,0,0,2,3,3,3
+"Sociology",2006,6,7,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2006,6,8,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2006,6,9,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2006,6,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2007,4,1,0,0,0,2,3,4,2,3,4,0
+"Sociology",2007,4,2,0,0,0,1,1,2,1,1,2,2
+"Sociology",2007,4,3,0,0,0,1,2,3,1,2,3,1
+"Sociology",2007,4,4,0,0,2,0,0,0,0,0,2,2
+"Sociology",2007,4,5,0,0,2,0,0,0,0,0,2,2
+"Sociology",2007,4,6,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2007,4,7,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2007,4,8,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2007,4,9,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2007,4,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2008,3,1,0,0,0,2,3,3,2,3,3,0
+"Sociology",2008,3,2,0,0,0,2,3,3,2,3,3,0
+"Sociology",2008,3,3,0,0,0,1,3,3,1,3,3,0
+"Sociology",2008,3,4,0,1,1,1,2,2,1,3,3,0
+"Sociology",2008,3,5,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2008,3,6,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2008,3,7,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2008,3,8,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2008,3,9,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2008,3,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2009,4,1,0,0,0,4,4,4,4,4,4,0
+"Sociology",2009,4,2,0,0,0,3,4,4,3,4,4,0
+"Sociology",2009,4,3,0,0,0,3,4,4,3,4,4,0
+"Sociology",2009,4,4,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2009,4,5,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2009,4,6,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2009,4,7,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2009,4,8,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2009,4,9,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2009,4,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2010,10,1,0,0,0,7,8,8,7,8,8,2
+"Sociology",2010,10,2,0,0,0,4,5,6,4,5,6,4
+"Sociology",2010,10,3,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2010,10,4,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2010,10,5,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2010,10,6,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2010,10,7,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2010,10,8,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2010,10,9,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2010,10,10,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,1,0,0,0,5,6,6,5,6,6,4
+"Sociology",2011,10,2,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,3,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,4,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,5,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,6,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,7,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,8,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,9,"null","null","null","null","null","null","null","null","null","null"
+"Sociology",2011,10,10,"null","null","null","null","null","null","null","null","null","null"
+"College of Liberal Arts & Sciences",2000,160,1,-1,0,0,-1,117,131,-1,117,131,29
+"College of Liberal Arts & Sciences",2000,160,2,-1,0,0,-1,82,104,-1,82,104,56
+"College of Liberal Arts & Sciences",2000,160,3,-1,3,3,-1,75,96,-1,78,99,61
+"College of Liberal Arts & Sciences",2000,160,4,-1,43,50,-1,35,46,-1,78,96,64
+"College of Liberal Arts & Sciences",2000,160,5,-1,64,78,-1,13,17,-1,77,95,65
+"College of Liberal Arts & Sciences",2000,160,6,-1,69,84,-1,9,11,-1,78,95,65
+"College of Liberal Arts & Sciences",2000,160,7,-1,72,88,-1,5,6,-1,77,94,66
+"College of Liberal Arts & Sciences",2000,160,8,-1,74,90,-1,2,2,-1,76,92,68
+"College of Liberal Arts & Sciences",2000,160,9,-1,75,91,-1,2,2,-1,77,93,67
+"College of Liberal Arts & Sciences",2000,160,10,-1,77,93,-1,0,0,-1,77,93,67
+"College of Liberal Arts & Sciences",2001,167,1,-1,0,0,-1,129,133,-1,129,133,34
+"College of Liberal Arts & Sciences",2001,167,2,-1,0,0,-1,99,112,-1,99,112,55
+"College of Liberal Arts & Sciences",2001,167,3,-1,2,2,-1,92,104,-1,94,106,61
+"College of Liberal Arts & Sciences",2001,167,4,-1,46,51,-1,41,46,-1,87,97,70
+"College of Liberal Arts & Sciences",2001,167,5,-1,74,83,-1,14,17,-1,88,100,67
+"College of Liberal Arts & Sciences",2001,167,6,-1,78,87,-1,5,8,-1,83,95,72
+"College of Liberal Arts & Sciences",2001,167,7,-1,83,95,-1,1,3,-1,84,98,69
+"College of Liberal Arts & Sciences",2001,167,8,-1,83,95,-1,1,3,-1,84,98,69
+"College of Liberal Arts & Sciences",2001,167,9,-1,84,96,-1,0,2,-1,84,98,69
+"College of Liberal Arts & Sciences",2001,167,10,-1,84,96,-1,0,2,-1,84,98,69
+"College of Liberal Arts & Sciences",2002,181,1,-1,0,0,-1,138,150,-1,138,150,31
+"College of Liberal Arts & Sciences",2002,181,2,-1,0,0,-1,108,125,-1,108,125,56
+"College of Liberal Arts & Sciences",2002,181,3,-1,4,4,-1,99,113,-1,103,117,64
+"College of Liberal Arts & Sciences",2002,181,4,-1,59,64,-1,41,52,-1,100,116,65
+"College of Liberal Arts & Sciences",2002,181,5,-1,88,98,-1,8,14,-1,96,112,69
+"College of Liberal Arts & Sciences",2002,181,6,-1,96,109,-1,8,10,-1,104,119,62
+"College of Liberal Arts & Sciences",2002,181,7,-1,97,111,-1,4,6,-1,101,117,64
+"College of Liberal Arts & Sciences",2002,181,8,-1,101,115,-1,2,3,-1,103,118,63
+"College of Liberal Arts & Sciences",2002,181,9,-1,101,115,-1,1,2,-1,102,117,64
+"College of Liberal Arts & Sciences",2002,181,10,-1,101,115,-1,1,2,-1,102,117,64
+"College of Liberal Arts & Sciences",2003,188,1,-1,0,0,-1,144,154,-1,144,154,34
+"College of Liberal Arts & Sciences",2003,188,2,-1,0,0,-1,114,129,-1,114,129,59
+"College of Liberal Arts & Sciences",2003,188,3,-1,2,2,-1,106,123,-1,108,125,63
+"College of Liberal Arts & Sciences",2003,188,4,-1,51,59,-1,47,59,-1,98,118,70
+"College of Liberal Arts & Sciences",2003,188,5,-1,83,99,-1,12,15,-1,95,114,74
+"College of Liberal Arts & Sciences",2003,188,6,-1,91,110,-1,5,6,-1,96,116,72
+"College of Liberal Arts & Sciences",2003,188,7,-1,93,112,-1,3,4,-1,96,116,72
+"College of Liberal Arts & Sciences",2003,188,8,-1,95,114,-1,2,2,-1,97,116,72
+"College of Liberal Arts & Sciences",2003,188,9,-1,96,115,-1,2,2,-1,98,117,71
+"College of Liberal Arts & Sciences",2003,188,10,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2004,246,1,-1,0,0,-1,183,197,-1,183,197,49
+"College of Liberal Arts & Sciences",2004,246,2,-1,0,0,-1,145,169,-1,145,169,77
+"College of Liberal Arts & Sciences",2004,246,3,-1,9,9,-1,120,144,-1,129,153,93
+"College of Liberal Arts & Sciences",2004,246,4,-1,76,91,-1,49,63,-1,125,154,92
+"College of Liberal Arts & Sciences",2004,246,5,-1,108,125,-1,19,26,-1,127,151,95
+"College of Liberal Arts & Sciences",2004,246,6,-1,116,137,-1,9,11,-1,125,148,98
+"College of Liberal Arts & Sciences",2004,246,7,-1,119,140,-1,6,8,-1,125,148,98
+"College of Liberal Arts & Sciences",2004,246,8,-1,120,142,-1,5,6,-1,125,148,98
+"College of Liberal Arts & Sciences",2004,246,9,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2004,246,10,0,"null","null",0,"null","null",0,"null","null","null"
+"College of Liberal Arts & Sciences",2005,272,1,-1,0,0,-1,200,220,-1,200,220,52
+"College of Liberal Arts & Sciences",2005,272,2,-1,0,1,-1,150,180,-1,150,181,91
+"College of Liberal Arts & Sciences",2005,272,3,-1,8,9,-1,116,154,-1,124,163,109
+"College of Liberal Arts & Sciences",2005,272,4,-1,70,85,-1,51,74,-1,121,159,113
+"College of Liberal Arts & Sciences",2005,272,5,-1,103,128,-1,14,23,-1,117,151,121
+"College of Liberal Arts & Sciences",2005,272,6,-1,113,142,-1,10,16,-1,123,158,114
+"College of Liberal Arts & Sciences",2005,272,7,-1,87,111,-1,5,7,-1,92,118,154
+"College of Liberal Arts & Sciences",2005,272,8,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2005,272,9,0,"null","null",0,"null","null",0,"null","null","null"
+"College of Liberal Arts & Sciences",2005,272,10,1,"null","null",1,"null","null",1,"null","null","null"
+"College of Liberal Arts & Sciences",2006,242,1,-1,0,0,-1,175,185,-1,175,185,57
+"College of Liberal Arts & Sciences",2006,242,2,-1,0,0,-1,147,167,-1,147,167,75
+"College of Liberal Arts & Sciences",2006,242,3,-1,1,2,-1,133,153,-1,134,155,87
+"College of Liberal Arts & Sciences",2006,242,4,-1,69,77,-1,57,70,-1,126,147,95
+"College of Liberal Arts & Sciences",2006,242,5,-1,107,122,-1,20,23,-1,127,145,97
+"College of Liberal Arts & Sciences",2006,242,6,-1,118,133,-1,9,12,-1,127,145,97
+"College of Liberal Arts & Sciences",2006,242,7,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2006,242,8,0,"null","null",0,"null","null",0,"null","null","null"
+"College of Liberal Arts & Sciences",2006,242,9,1,"null","null",1,"null","null",1,"null","null","null"
+"College of Liberal Arts & Sciences",2006,242,10,2,"null","null",2,"null","null",2,"null","null","null"
+"College of Liberal Arts & Sciences",2007,232,1,-1,0,0,-1,164,193,-1,164,193,39
+"College of Liberal Arts & Sciences",2007,232,2,-1,0,0,-1,119,149,-1,119,149,83
+"College of Liberal Arts & Sciences",2007,232,3,-1,3,3,-1,103,139,-1,106,142,90
+"College of Liberal Arts & Sciences",2007,232,4,-1,50,63,-1,46,68,-1,96,131,101
+"College of Liberal Arts & Sciences",2007,232,5,-1,84,106,-1,12,21,-1,96,127,105
+"College of Liberal Arts & Sciences",2007,232,6,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2007,232,7,0,"null","null",0,"null","null",0,"null","null","null"
+"College of Liberal Arts & Sciences",2007,232,8,1,"null","null",1,"null","null",1,"null","null","null"
+"College of Liberal Arts & Sciences",2007,232,9,2,"null","null",2,"null","null",2,"null","null","null"
+"College of Liberal Arts & Sciences",2007,232,10,3,"null","null",3,"null","null",3,"null","null","null"
+"College of Liberal Arts & Sciences",2008,269,1,-1,0,0,-1,193,211,-1,193,211,58
+"College of Liberal Arts & Sciences",2008,269,2,-1,1,1,-1,156,186,-1,157,187,82
+"College of Liberal Arts & Sciences",2008,269,3,-1,5,5,-1,144,174,-1,149,179,90
+"College of Liberal Arts & Sciences",2008,269,4,-1,73,82,-1,72,88,-1,145,170,99
+"College of Liberal Arts & Sciences",2008,269,5,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2008,269,6,0,"null","null",0,"null","null",0,"null","null","null"
+"College of Liberal Arts & Sciences",2008,269,7,1,"null","null",1,"null","null",1,"null","null","null"
+"College of Liberal Arts & Sciences",2008,269,8,2,"null","null",2,"null","null",2,"null","null","null"
+"College of Liberal Arts & Sciences",2008,269,9,3,"null","null",3,"null","null",3,"null","null","null"
+"College of Liberal Arts & Sciences",2008,269,10,4,"null","null",4,"null","null",4,"null","null","null"
+"College of Liberal Arts & Sciences",2009,312,1,-1,0,0,-1,223,247,-1,223,247,65
+"College of Liberal Arts & Sciences",2009,312,2,-1,0,0,-1,181,222,-1,181,222,90
+"College of Liberal Arts & Sciences",2009,312,3,-1,9,10,-1,161,196,-1,170,206,106
+"College of Liberal Arts & Sciences",2009,312,4,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2009,312,5,0,"null","null",0,"null","null",0,"null","null","null"
+"College of Liberal Arts & Sciences",2009,312,6,1,"null","null",1,"null","null",1,"null","null","null"
+"College of Liberal Arts & Sciences",2009,312,7,2,"null","null",2,"null","null",2,"null","null","null"
+"College of Liberal Arts & Sciences",2009,312,8,3,"null","null",3,"null","null",3,"null","null","null"
+"College of Liberal Arts & Sciences",2009,312,9,4,"null","null",4,"null","null",4,"null","null","null"
+"College of Liberal Arts & Sciences",2009,312,10,5,"null","null",5,"null","null",5,"null","null","null"
+"College of Liberal Arts & Sciences",2010,300,1,-1,0,0,-1,195,224,-1,195,224,76
+"College of Liberal Arts & Sciences",2010,300,2,-1,0,0,-1,159,194,-1,159,194,106
+"College of Liberal Arts & Sciences",2010,300,3,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2010,300,4,0,"null","null",0,"null","null",0,"null","null","null"
+"College of Liberal Arts & Sciences",2010,300,5,1,"null","null",1,"null","null",1,"null","null","null"
+"College of Liberal Arts & Sciences",2010,300,6,2,"null","null",2,"null","null",2,"null","null","null"
+"College of Liberal Arts & Sciences",2010,300,7,3,"null","null",3,"null","null",3,"null","null","null"
+"College of Liberal Arts & Sciences",2010,300,8,4,"null","null",4,"null","null",4,"null","null","null"
+"College of Liberal Arts & Sciences",2010,300,9,5,"null","null",5,"null","null",5,"null","null","null"
+"College of Liberal Arts & Sciences",2010,300,10,6,"null","null",6,"null","null",6,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,1,-1,0,0,-1,239,265,-1,239,265,69
+"College of Liberal Arts & Sciences",2011,334,2,-1,"null","null",-1,"null","null",-1,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,3,0,"null","null",0,"null","null",0,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,4,1,"null","null",1,"null","null",1,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,5,2,"null","null",2,"null","null",2,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,6,3,"null","null",3,"null","null",3,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,7,4,"null","null",4,"null","null",4,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,8,5,"null","null",5,"null","null",5,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,9,6,"null","null",6,"null","null",6,"null","null","null"
+"College of Liberal Arts & Sciences",2011,334,10,7,"null","null",7,"null","null",7,"null","null","null"

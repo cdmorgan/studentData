@@ -1,0 +1,68 @@
+svg {
+	font: 10px sans-serif;
+}
+
+.background path {
+	fill: none;
+	stroke: #ccc;
+	stroke-opacity: .4;
+	shape-rendering: crispEdges;
+}
+
+.foreground path {
+	fill: none;
+	stroke-opacity: .7;
+}
+
+.brush .extent {
+	fill-opacity: .3;
+	stroke: #fff;
+	shape-rendering: crispEdges;
+}
+
+.axis line, .axis path {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.axis text {
+	text-shadow: 0 1px 0 #fff;
+}
+
+#slickGrid-container {
+	width: 960px;
+	height: 500px;
+	overflow: hidden;
+	outline: 0px none;
+	position: relative;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+.hover {
+	font-weight: bold;
+}
+
+#searchButton {
+	display: none;
+	float: right;
+}
+
+#currentData {
+	display: none;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: larger;
+}
+
+#header, #title {
+	width: 940px;
+	text-align: center;
+}
+
+#gradButton, #retButton, #persButton, #selectSchool1, #selectSchool2, #chooseData, #compareButton, #showButton {
+	float: left;
+}

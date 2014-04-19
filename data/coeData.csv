@@ -1,0 +1,101 @@
+key,year,change
+Civil Engineering,2000,Added MATH 1240 as requirement
+Civil Engineering,2001,Added ECGR 3253 and ECGR 3253 to program
+Civil Engineering,2002,Added PHYS 2101 and PHYS 2102 as requirements
+Civil Engineering,2003,Added MATH 1240 as requirement
+Civil Engineering,2004,Added STAT 1220 as requirement
+Civil Engineering,2005,Added PHYS 2101 and PHYS 2102 as requirements
+Civil Engineering,2006,Added ECGR 3183 as requirement
+Civil Engineering,2007,Added STAT 1220 as requirement
+Civil Engineering,2008,Added ENG 2216 as requirement
+Civil Engineering,2009,Made 'C' lowest acceptable grade for MATH 1240
+Civil Engineering,2010,Added ECGR 3183 as requirement
+Civil Engineering,2011,Added STAT 1220 as requirement
+Computer Engineering,2000,Added ECGR 3183 as requirement
+Computer Engineering,2001,Added STAT 2220 as requirement
+Computer Engineering,2002,Added PHYS 2101 and PHYS 2102 as requirements
+Computer Engineering,2003,Added ENG 2216 as requirement
+Computer Engineering,2004,Added MATH 2260 as requirement
+Computer Engineering,2005,Added STAT 2220 as requirement
+Computer Engineering,2006,Added PHIL 1105 as requirement
+Computer Engineering,2007,Added PHIL 1105 as requirement
+Computer Engineering,2008,Added MATH 1241 as requirement
+Computer Engineering,2009,Made 'C' lowest acceptable grade for STAT 1220
+Computer Engineering,2010,Added PHIL 1105 as requirement
+Computer Engineering,2011,Made 'C' lowest acceptable grade for STAT 1220
+Electrical Engineering,2000,Added STAT 1220 as requirement
+Electrical Engineering,2001,Made 'C' lowest acceptable grade for MATH 1241 and MATH 1242
+Electrical Engineering,2002,Added ECGR 3183 as requirement
+Electrical Engineering,2003,Added ECGR 3253 and ECGR 3253 to program
+Electrical Engineering,2004,Made 'C' lowest acceptable grade for MATH 1241 and MATH 1242
+Electrical Engineering,2005,Made 'C' lowest acceptable grade for STAT 1220
+Electrical Engineering,2006,Added ENG 2216 as requirement
+Electrical Engineering,2007,Added STAT 2220 as requirement
+Electrical Engineering,2008,Made 'C' lowest acceptable grade for MATH 1241 and MATH 1242
+Electrical Engineering,2009,Made 'C' lowest acceptable grade for MATH 1240
+Electrical Engineering,2010,Added STAT 2220 as requirement
+Electrical Engineering,2011,Made 'C' lowest acceptable grade for MATH 1240
+Mechanical Engineering,2000,Added STAT 1220 as requirement
+Mechanical Engineering,2001,Added PHYS 2101 and PHYS 2102 as requirements
+Mechanical Engineering,2002,Added MATH 2260 as requirement
+Mechanical Engineering,2003,Added ECGR 3183 as requirement
+Mechanical Engineering,2004,Added ENG 2216 as requirement
+Mechanical Engineering,2005,Added STAT 1220 as requirement
+Mechanical Engineering,2006,Made 'C' lowest acceptable grade for STAT 1220
+Mechanical Engineering,2007,Added STAT 1220 as requirement
+Mechanical Engineering,2008,Made 'C' lowest acceptable grade for STAT 1220
+Mechanical Engineering,2009,Made 'C' lowest acceptable grade for MATH 1241 and MATH 1242
+Mechanical Engineering,2010,Added PHIL 1105 as requirement
+Mechanical Engineering,2011,Added MATH 1241 as requirement
+Civil Engineering Technology,2006,Added STAT 2220 as requirement
+Civil Engineering Technology,2007,Made 'C' lowest acceptable grade for STAT 1220
+Civil Engineering Technology,2008,Added PHYS 2101 and PHYS 2102 as requirements
+Civil Engineering Technology,2009,Added STAT 2220 as requirement
+Civil Engineering Technology,2010,Added PHIL 1105 as requirement
+Civil Engineering Technology,2011,Added MATH 2260 as requirement
+Electrical Engineering Tech,2004,Added PHYS 2101 and PHYS 2102 as requirements
+Electrical Engineering Tech,2005,Added MATH 1240 as requirement
+Electrical Engineering Tech,2006,Added STAT 1220 as requirement
+Electrical Engineering Tech,2007,Added PHIL 1105 as requirement
+Electrical Engineering Tech,2008,Made 'C' lowest acceptable grade for MATH 1241 and MATH 1242
+Electrical Engineering Tech,2009,Added MATH 1241 as requirement
+Electrical Engineering Tech,2010,Added PHIL 1105 as requirement
+Electrical Engineering Tech,2011,Made 'C' lowest acceptable grade for STAT 1220
+Fire Safety Engineering Tech,2004,Added MATH 2260 as requirement
+Fire Safety Engineering Tech,2005,Added MATH 1240 as requirement
+Fire Safety Engineering Tech,2006,Added MATH 1241 as requirement
+Fire Safety Engineering Tech,2007,Added MATH 1240 as requirement
+Fire Safety Engineering Tech,2008,Added STAT 2220 as requirement
+Fire Safety Engineering Tech,2009,Made 'C' lowest acceptable grade for STAT 1220
+Fire Safety Engineering Tech,2010,Added MATH 1240 as requirement
+Fire Safety Engineering Tech,2011,Added ECGR 3183 as requirement
+Mechanical Engineering Tech,2004,Added PHYS 2101 and PHYS 2102 as requirements
+Mechanical Engineering Tech,2005,Made 'C' lowest acceptable grade for MATH 1240
+Mechanical Engineering Tech,2006,Added ECGR 3253 and ECGR 3253 to program
+Mechanical Engineering Tech,2007,Added MATH 2260 as requirement
+Mechanical Engineering Tech,2008,Made 'C' lowest acceptable grade for MATH 1240
+Mechanical Engineering Tech,2009,Added ECGR 3253 and ECGR 3253 to program
+Mechanical Engineering Tech,2010,Added STAT 2220 as requirement
+Mechanical Engineering Tech,2011,Added PHIL 1105 as requirement
+Construction Management,2006,Added ENG 2216 as requirement
+Construction Management,2007,Added STAT 1220 as requirement
+Construction Management,2008,Added MATH 2260 as requirement
+Construction Management,2009,Made 'C' lowest acceptable grade for STAT 1220
+Construction Management,2010,Made 'C' lowest acceptable grade for STAT 1220
+Construction Management,2011,Added STAT 1220 as requirement
+Systems Engineering,2008,Added ECGR 3253 and ECGR 3253 to program
+Systems Engineering,2009,Added MATH 1241 as requirement
+Systems Engineering,2010,Made 'C' lowest acceptable grade for MATH 1241 and MATH 1242
+Systems Engineering,2011,Added PHIL 1105 as requirement
+Engineering-Undesignated,2000,Made 'C' lowest acceptable grade for MATH 1241 and MATH 1242
+Engineering-Undesignated,2001,Added ECGR 3183 as requirement
+Engineering-Undesignated,2002,Added STAT 2220 as requirement
+Engineering-Undesignated,2003,Added MATH 1241 as requirement
+Engineering-Undesignated,2004,Added STAT 2220 as requirement
+Engineering-Undesignated,2005,Added MATH 1240 as requirement
+Engineering-Undesignated,2006,Added ENG 2216 as requirement
+Engineering-Undesignated,2007,Made 'C' lowest acceptable grade for STAT 1220
+Engineering-Undesignated,2008,Added MATH 2260 as requirement
+Engineering-Undesignated,2009,Made 'C' lowest acceptable grade for STAT 1220
+Engineering-Undesignated,2010,Added ECGR 3253 and ECGR 3253 to program
+Engineering-Undesignated,2011,Added ECGR 3253 and ECGR 3253 to program

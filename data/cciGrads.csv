@@ -1,0 +1,27 @@
+key,year,incoming,value
+in College,1999,106,11
+in College,2000,69,19
+in College,2001,105,14
+in College,2002,85,14
+in College,2003,85,20
+in College,2004,84,11
+in College,2005,82,17
+in College,2006,82,9
+in College,2007,82,19
+in College,2008,109,29
+in College,2009,102,0
+in College,2010,111,0
+in College,2011,118,0
+in University,1999,106,25
+in University,2000,69,25
+in University,2001,105,31
+in University,2002,85,26
+in University,2003,85,27
+in University,2004,84,16
+in University,2005,82,30
+in University,2006,82,17
+in University,2007,82,22
+in University,2008,109,36
+in University,2009,102,0
+in University,2010,111,0
+in University,2011,118,0

@@ -1,0 +1,46 @@
+body {
+	font: 10px sans-serif;
+}
+
+.chart, .chart2 {
+	background: #fff;
+}
+
+p {
+	font: 14px helvetica;
+	font-weight: bold;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #000;
+	stroke-width: 2px;
+	shape-rendering: crispEdges;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	font-size: 22px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.chartTitle, .chart2Title, .chart3Title {
+	font-size : 16px;
+}
+
+.chartLegend svg, .chart2Legend svg {
+	height: 50px;
+	width: 1600px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="./stylesheets/coordinatesStyle.css"/>
+		<link type="text/css" rel="stylesheet" href="./stylesheets/slick.grid.css" >
+		<link type="text/css" rel="stylesheet" href="./stylesheets/gridStyle.css" >
+		<title>New Web Project</title>
+		<script src="./scripts/jquery-2.0.1.js"></script>
+		<script src="./scripts/coordinates.js"></script>
+	</head>
+	<body>
+		<h1>Student Data</h1>
+		<br/>
+		<!--http://d3js.org/d3.v3.min.js-->
+		<script src="./scripts/d3.v3.js" charset="utf-8"></script>
+		<script src="./scripts/jquery.event.drag-2.2.js"></script>
+		<script src="./scripts/slick.core.js"></script>
+		<script src="./scripts/slick.grid.js"></script>
+		<div id="header">
+			<select size="1" id="selectSchool1" name="inst">
+				<option value="avg" >All UNC Institutions (Avg)</option>
+				<option value="asu">Appalachian State University</option>
+				<option value="ecu">East Carolina University</option>
+				<option value="ecsu">Elizabeth City State University</option>
+				<option value="fsu">Fayetteville State University</option>
+				<option value="ncat">NC A&amp;T State University</option>
+				<option value="all" selected="selected">NC Institutions (Together)</option>
+				<option value="nccu">North Carolina Central University</option>
+				<option value="ncsu">NC State University</option>
+				<option value="asheville">UNC Asheville</option>
+				<option value="ch">UNC - Chapel Hill</option>
+				<option value="charlotte">UNC Charlotte</option>
+				<option value="greensboro">UNC Greensboro</option>
+				<option value="pembroke">UNC Pembroke</option>
+				<option value="wilmington">UNC Wilmington</option>
+				<option value="arts">UNC School of the Arts</option>
+				<option value="wcu">Western Carolina University</option>
+				<option value="wssu">Winston-Salem State University</option>
+			</select>
+			<select size="1" id="chooseData">
+				<option value="default" selected="selected">Choose Data Set</option>
+				<option value="grads">Graduation Rates</option>
+				<option value="retn">Retention Rates</option>
+				<option value="persistense">Persistence Rates</option>
+			</select>
+			<button id="showButton" size="1" value="Persistence Rates" onClick="loadVisualization(event)">
+				Show Data
+			</button>
+			<span id="searchButton">&nbsp;
+				<input id="textSearch" type="text" name="search" placeholder="">
+				<!--<button id="searchBtn">
+					Search
+				</button>
+				<button id="revertButton" onClick="goBack()">
+					Go Back
+				</button>-->
+				<button id="printer" onClick="activeCellCheck()">
+					Printer Friendly Data Table
+				</button> </span>
+			<br />
+			<br />
+			<select size="1" id="selectSchool2" name="inst">
+				<option value="default" selected="selected">Compare Schools</option>
+				<option value="avg" >All UNC Institutions (Avg)</option>
+				<option value="asu">Appalachian State University</option>
+				<option value="ecu">East Carolina University</option>
+				<option value="ecsu">Elizabeth City State University</option>
+				<option value="fsu">Fayetteville State University</option>
+				<option value="ncat">NC A&amp;T State University</option>
+				<option value="nccu">North Carolina Central University</option>
+				<option value="ncsu">NC State University</option>
+				<option value="asheville">UNC Asheville</option>
+				<option value="ch">UNC - Chapel Hill</option>
+				<option value="charlotte">UNC Charlotte</option>
+				<option value="greensboro">UNC Greensboro</option>
+				<option value="pembroke">UNC Pembroke</option>
+				<option value="wilmington">UNC Wilmington</option>
+				<option value="arts">UNC School of the Arts</option>
+				<option value="wcu">Western Carolina University</option>
+				<option value="wssu">Winston-Salem State University</option>
+			</select>
+			<button id="compareButton" size="1" value="Persistence Rates" onClick="loadVisualization(event)">
+				Compare Schools
+			</button>
+		</div>
+		<br />
+		<br />
+		<br />
+		<div id="title">
+			<span id="currentData"></span>
+		</div>
+		<div id="d3-container"></div>
+		<br />
+		<br />
+		<div id="slickGrid-container" class="slickgrid_260109 ui-widget"></div>
+	</body>
+</html>

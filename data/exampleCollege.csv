@@ -1,0 +1,13 @@
+key,year,new students,delay,gim,gic,giu,gie,lost,rim,ric,riu,rie,lost2,pim,pic,piu,pie,lost3
+Example Major A,1996,106,After 1 Year,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example Major A,1996,106,After 2 Years,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example Major A,1996,106,After 10 Years,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example Major A,1997,100,After 1 Year,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example Major A,1997,100,After 2 Years,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example Major A,1997,100,After 10 Years,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example Major B,1996,110,After 1 Year,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example Major B,1996,110,After 1 Year,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example Major B,1996,110,After 1 Year,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Example College,1996,106,After 1 Year,-1,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0
+Example College,1996,106,After 1 Year,-1,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0
+Example College,1996,106,After 1 Year,-1,0,0,0,0,-1,0,0,0,0,-1,0,0,0,0

@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link type="text/css" rel="stylesheet" href="./stylesheets/style.css"/>
+		<title>NC Institutions</title>
+		<script src="./scripts/jquery-2.0.1.js"></script>
+	</head>
+	<body>
+		<script src="./scripts/d3.v3.js"></script>
+		<script src="./scripts/allSG.js"></script>
+		<div id="header">
+			<div class="left">
+				<select size="1" id="dataSet">
+					<option value="default" selected="selected">Select Data Set</option>
+					<option value="grads">Graduation Rates</option>
+					<option value="retn">Retention Rates</option>
+					<option value="persistence">Persistence Rates</option>
+				</select>
+			</div>
+			<div class="right">
+				<select size="1" id="selectSchool">
+					<option value="default" selected="selected">Select School</option>
+					<option value="avg" >All UNC Institutions (Avg)</option>
+					<option value="asu">Appalachian State University</option>
+					<option value="ecu">East Carolina University</option>
+					<option value="ecsu">Elizabeth City State University</option>
+					<option value="fsu">Fayetteville State University</option>
+					<option value="ncat">NC A&amp;T State University</option>
+					<option value="nccu">North Carolina Central University</option>
+					<option value="ncsu">NC State University</option>
+					<option value="asheville">UNC Asheville</option>
+					<option value="ch">UNC - Chapel Hill</option>
+					<option value="charlotte">UNC Charlotte</option>
+					<option value="greensboro">UNC Greensboro</option>
+					<option value="pembroke">UNC Pembroke</option>
+					<option value="wilmington">UNC Wilmington</option>
+					<option value="arts">UNC School of the Arts</option>
+					<option value="wcu">Western Carolina University</option>
+					<option value="wssu">Winston-Salem State University</option>
+				</select>
+				<button id="schoolBtn" size="1" value="One School" onClick="chart(event, '.chart')">
+					Visualize
+				</button>
+			</div>
+			<div class="center">
+				<select size="1" id="selectYear">
+					<option value="default" selected="selected">Select Year</option>
+					<option value="1996" >1996</option>
+					<option value="1997">1997</option>
+					<option value="1998">1998</option>
+					<option value="1999">1999</option>
+					<option value="2000">2000</option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+					<option value="2003">2003</option>
+					<option value="2004">2004</option>
+					<option value="2005">2005</option>
+					<option value="2006">2006</option>
+					<option value="2007">2007</option>
+					<option value="2008">2008</option>
+					<option value="2009">2009</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+				</select>
+				<button id="yearBtn" size="1" value="One Year" onClick="chart(event, '.chart')">
+					Visualize
+				</button>
+			</div>
+			<br />
+		</div>
+		<div id="header2">
+			<div class="left">
+				<select size="1" id="dataSet2">
+					<option value="default" selected="selected">Select Data Set</option>
+					<option value="grads">Graduation Rates</option>
+					<option value="retn">Retention Rates</option>
+					<option value="persistence">Persistence Rates</option>
+				</select>
+			</div>
+			<div class="right">
+				<select size="1" id="selectSchool2">
+					<option value="default" selected="selected">Select School</option>
+					<option value="avg" >All UNC Institutions (Avg)</option>
+					<option value="asu">Appalachian State University</option>
+					<option value="ecu">East Carolina University</option>
+					<option value="ecsu">Elizabeth City State University</option>
+					<option value="fsu">Fayetteville State University</option>
+					<option value="ncat">NC A&amp;T State University</option>
+					<option value="nccu">North Carolina Central University</option>
+					<option value="ncsu">NC State University</option>
+					<option value="asheville">UNC Asheville</option>
+					<option value="ch">UNC - Chapel Hill</option>
+					<option value="charlotte">UNC Charlotte</option>
+					<option value="greensboro">UNC Greensboro</option>
+					<option value="pembroke">UNC Pembroke</option>
+					<option value="wilmington">UNC Wilmington</option>
+					<option value="arts">UNC School of the Arts</option>
+					<option value="wcu">Western Carolina University</option>
+					<option value="wssu">Winston-Salem State University</option>
+				</select>
+				<button id="schoolBtn2" size="1" value="Two Schools" onClick="chart(event, '.chart2')">
+					Compare
+				</button>
+			</div>
+			<div class="center">
+				<select size="1" id="selectYear2">
+					<option value="default" selected="selected">Select Year</option>
+					<option value="1996" >1996</option>
+					<option value="1997">1997</option>
+					<option value="1998">1998</option>
+					<option value="1999">1999</option>
+					<option value="2000">2000</option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+					<option value="2003">2003</option>
+					<option value="2004">2004</option>
+					<option value="2005">2005</option>
+					<option value="2006">2006</option>
+					<option value="2007">2007</option>
+					<option value="2008">2008</option>
+					<option value="2009">2009</option>
+					<option value="2010">2010</option>
+					<option value="2011">2011</option>
+				</select>
+				<button id="yearBtn2" size="1" value="Two Years" onClick="chart(event, '.chart2')">
+					Compare
+				</button>
+			</div>
+		</div>
+		<br />
+		<br />
+		<div class="title center"></div>
+		<br />
+		<div class="chartTitle center"></div>
+		<br />
+		<div class="chart"></div>
+		<br />
+		<div class="chart2Title center"></div>
+		<br />
+		<div class="chart2"></div>
+	</body>
+</html>
+

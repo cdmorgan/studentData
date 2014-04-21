@@ -40,7 +40,6 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 		$(".chart, .chart2, .chart3, .chartTitle, .chart2Title, .chart3Title").empty();
 	}
 
-
 	(state === 2 || state === 3) ? emptyOne() : emptyBoth();
 
 	$(".title").empty();
@@ -53,11 +52,9 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 		(dataSetVal === "default" || dataSet2Val === "default") ? alert("Choose two Data Sets") : /*(chartState === 1 && (year === "default" || year2 === "default") && state !== 2) ? alert("Choose two years to compare") :*/(chartState === 2 && (entityVal === "default" || entity2Val === "default") && state !== 2) ? alert("Choose two entities to compare") : loadCSV();
 	}
 
-
 	(chartState !== 0 && chart2State !== 0) ? checkBoth() : checkOne();
 
 	function loadCSV() {
-
 		var csvpath, currentData, title, thisTitle;
 		var dataPath = (dataSetVal === "grads" && entityVal === "cci") ? "cciGrads" : (dataSetVal === "retn" && entityVal === "cci") ? "cciRetn" : (dataSetVal === "grads" && entityVal === "cs") ? "csGrads" : (dataSetVal === "retn" && entityVal === "cs") ? "csRetn" : (dataSetVal === "grads" && entityVal === "sis") ? "sisGrads" : "sisRetn";
 		var firstEntity = entities[entityVal];
@@ -68,10 +65,8 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 		}
 
 		function loadOne() {
-
 			function firstLoad() {
 				csvpath = ("./data/" + dataPath + ".csv");
-				//title = (chartState === 1) ? year : entities[entityVal];
 				$('.title').html("Comparing " + dataSetText + " for " + firstEntity);
 			}
 
@@ -87,23 +82,20 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 				function setTwoData() {
 
 					function setSameData() {
-						currentData = /*(chartState === 1 && chart2State === 1 && yr === yr2) ? yr : (chartState === 1 && chart2State === 1 && yr !== yr2) ? (yr + " & " + yr2) : (chartState === 1 && chart2State === 2) ? (yr + " & " + entityTwo) : (chartState === 2 && chart2State === 1) ? (entityOne + " & " + yr2) :*/(chartState === 2 && chart2State === 2 && entityOne === entityTwo) ? firstEntity : (firstEntity + " & " + secondEntity);
+						currentData = (chartState === 2 && chart2State === 2 && entityOne === entityTwo) ? firstEntity : (firstEntity + " & " + secondEntity);
 						$('.title').html("Comparing " + dataSetText + " for " + currentData);
 					}
 
 					function setDiffData() {
-						currentData = /*(chartState === 1 && chart2State === 1 && yr === yr2) ? (data + " & " + data2 + " for " + yr) : (chartState === 1 && chart2State === 1 && yr !== yr2) ? (data + " for " + yr + " and " + data2 + " for " + yr2) : (chartState === 1 && chart2State === 2) ? (data + " for " + yr + " & " + data2 + " for " + entityTwo) : (chartState === 2 && chart2State === 1) ? (data + " for " + entityOne + "  & " + data2 + " for " + yr2) :*/(chartState === 2 && chart2State === 2 && entityVal === entityVal) ? (dataSetText + " & " + dataSet2Text + " for " + firstEntity) : (dataSetText + " for " + firstEntity + " & " + dataSet2Text + " for " + secondEntity);
+						currentData = (chartState === 2 && chart2State === 2 && entityVal === entityVal) ? (dataSetText + " & " + dataSet2Text + " for " + firstEntity) : (dataSetText + " for " + firstEntity + " & " + dataSet2Text + " for " + secondEntity);
 						$('.title').html("Comparing " + currentData);
 					}
-
 
 					(dataSetVal === dataSet2Val) ? setSameData() : setDiffData();
 				}
 
-
 				(chartState === 0 || chart2State === 0) ? setOneData() : setTwoData();
 			}
-
 
 			(state === 2 || state === 3) ? reload() : firstLoad();
 
@@ -129,7 +121,7 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 			}
 
 			function setOneData() {
-				var currentData = /*(chartState === 1 && chart2State === 1 && yr === yr2) ? yr : (chartState === 1 && chart2State === 1 && yr !== yr2) ? (yr + " & " + yr2) :*/(chartState === 2 && chart2State === 2 && entityVal === entity2Val) ? firstEntity : (firstEntity + " & " + secondEntity);
+				var currentData = (chartState === 2 && chart2State === 2 && entityVal === entity2Val) ? firstEntity : (firstEntity + " & " + secondEntity);
 				$('.title').html("Comparing " + dataSetText + " for " + currentData);
 				$('.chartTitle').html(entities[entityVal]);
 				$('.chart2Title').html(entities[entity2Val]);
@@ -138,7 +130,7 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 			}
 
 			function setTwoData() {
-				var currentData = /*(chartState === 1 && chart2State === 1 && yr === yr2) ? (data + " & " + data2 + " for " + yr) : (chartState === 1 && chart2State === 1 && yr !== yr2) ? (data + " for " + yr + " & " + data2 + " for " + yr2) :*/(chartState === 2 && chart2State === 2 && entityVal === entity2Val) ? (dataSetText + " & " + dataSet2Text + " for " + firstEntity) : (dataSetText + " for " + firstEntity + " & " + dataSet2Text + " for " + secondEntity);
+				var currentData = (chartState === 2 && chart2State === 2 && entityVal === entity2Val) ? (dataSetText + " & " + dataSet2Text + " for " + firstEntity) : (dataSetText + " for " + firstEntity + " & " + dataSet2Text + " for " + secondEntity);
 				$('.title').html("Comparing " + currentData);
 				$('.chartTitle').html(entities[entityVal] + "'s " + dataSetText);
 				$('.chart2Title').html(entities[entity2Val] + "'s " + dataSet2Text);
@@ -147,7 +139,7 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 			}
 
 			function setThreeData() {
-				var currentData = /*(chartState === 1 && chart2State === 1 && yr === yr2) ? (data + " & " + data2 + " for " + yr) : (chartState === 1 && chart2State === 1 && yr !== yr2) ? (data + " for " + yr + " & " + data2 + " for " + yr2) :*/(chartState === 2 && chart2State === 2 && entityVal === entity2Val) ? (dataSetText + " & " + dataSet2Text + " for " + firstEntity) : (dataSetText + " for " + firstEntity + " & " + dataSet2Text + " for " + secondEntity);
+				var currentData = (chartState === 2 && chart2State === 2 && entityVal === entity2Val) ? (dataSetText + " & " + dataSet2Text + " for " + firstEntity) : (dataSetText + " for " + firstEntity + " & " + dataSet2Text + " for " + secondEntity);
 				$('.title').html("Comparing " + currentData);
 				$('.chart2Title').html("In College");
 				$('.chart3Title').html("In University");
@@ -167,7 +159,6 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 				}
 
 			}
-
 
 			(dataSetVal === dataSet2Val) ? setOneData() : (entityVal === entity2Val) ? setThreeData() : setTwoData();
 		}
@@ -318,15 +309,6 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 					var invertedx = x.invert(mousex[0]);
 					invertedx = Math.round(invertedx);
 
-					/*$.each(d.values, function() {
-					 if (this.year === invertedx) {
-					 pro = (isNaN(this.value / this.incoming)) ? format(0) : format(this.value / this.incoming);
-					 incoming = this.incoming;
-					 howMany = this.value;
-					 didWhat = (d.key === "grads") ? "Graduated" : "Retained";
-					 }
-					 });*/
-
 					if (chartState !== 0) {
 						$.each(chart1Data, function() {
 							if (this.key === d.key) {
@@ -438,33 +420,6 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 						text3 = "<p>" + entities[entityVal] + "<br /><br />Incoming freshman for " + invertedx + " -  " + incoming3 + "<br /><br />" + pro3 + " (" + howMany3 + ") " + didWhat3 + " " + where3 + "</p>";
 						d3.select(this).classed("hover", true).attr("stroke", strokecolor).attr("stroke-width", "0.5px"), tooltip.html(text).style("visibility", "visible").style("top", xPos).style("left", yPos), tooltip2.html(text2).style("visibility", "visible").style("top", xPos2).style("left", yPos), tooltip3.html(text3).style("visibility", "visible").style("top", xPos3).style("left", yPos);
 					}
-
-					/*if (chartState === 0 && chart3State === 2) {
-					 xPos = (mousex[1] < 50) ? 50 : (thisChart === ".chart2") ? ((mousex[1] + 150) + "px") : ((mousex[1] + 600) + "px");
-					 yPos = (mousex[0] > width) ? ((mousex[0] - 200) + "px") : ((mousex[0] + 100) + "px");
-					 entityKey = (thisChart === ".chart2") ? entityVal : entity2Val;
-					 } else {
-					 xPos = (mousex[1] < 50) ? 50 : (thisChart === ".chart") ? ((mousex[1] + 100) + "px") : (thisChart === ".chart2") ? ((mousex[1] + 550) + "px") : ((mousex[1] + 975) + "px");
-					 yPos = (mousex[0] > width) ? ((mousex[0] - 200) + "px") : ((mousex[0] + 100) + "px");
-					 entityKey = (thisChart === ".chart") ? entityVal : entity2Val;
-					 }
-
-					 if (chart3State === 0) {
-					 var thisDataSet = (thisChart === ".chart") ? dataSetVal : dataSet2Val;
-					 var action = (thisDataSet === "grads") ? "Graduated" : (thisDataSet === "retn") ? "Retained" : "Persisted";
-					 text = "<p>" + entities[entityKey] + "<br /><br />Incoming freshmen for " + invertedx + " -  " + incoming + "<br /><br />" + pro + " (" + howMany + ") " + action + " with" + d.key + "</p>";
-					 } else if (chartState === 0) {
-					 var thisDataSet = (thisChart === ".chart2") ? dataSetVal : dataSet2Val;
-					 var action = (thisDataSet === "grads") ? "Graduated" : (thisDataSet === "retn") ? "Retained" : "Persisted";
-					 where = (thisChart === ".chart2") ? "within College" : "within University";
-					 text = "<p>" + entities[entityKey] + "<br /><br />Incoming freshmen for " + invertedx + " -  " + incoming + "<br /><br />" + pro + " (" + howMany + ") " + action + " " + where + "</p>";
-					 } else {
-					 where = (thisChart === ".chart") ? "within Major" : (thisChart === ".chart2") ? "within College" : "within University";
-					 text = "<p>" + entities[entityKey] + "<br /><br />Incoming freshman for " + invertedx + " -  " + incoming + "<br /><br />" + pro + " (" + howMany + ") " + didWhat + " " + where + "</p>";
-					 }
-
-					 d3.select(this).classed("hover", true).attr("stroke", strokecolor).attr("stroke-width", "0.5px"), tooltip.html(text).style("visibility", "visible").style("top", xPos).style("left", yPos);*/
-
 				}).on("mouseout", function(d, i) {
 					svg.selectAll(".layer").transition().duration(250).attr("opacity", "1");
 					d3.select(this).classed("hover", false).attr("stroke-width", "0px"), tooltip.html("<p>" + d.key + "<br></p>").style("visibility", "hidden"), tooltip2.html("<p>" + d.key + "<br></p>").style("visibility", "hidden"), tooltip3.html("<p>" + d.key + "<br></p>").style("visibility", "hidden");
@@ -505,7 +460,5 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 				});
 			});
 		}
-
 	}
-
 }

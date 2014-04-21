@@ -229,21 +229,18 @@ function showChart(e, chart, dataVal, data2Val, csvpath, csvpath2, dataText, dat
 	}
 
 	function loadOne() {
-
 		function firstLoad() {
 			var isYear = (c1State === 1) ? (" (" + year + ")") : "";
 			$('.title').html("Comparing " + dataText + " for " + major + isYear);
 		}
 
 		function reload() {
-
 			function setOneData() {
 				var isYear = ((state === 2 && c1State === 1) || (state === 3 && c2State === 1)) ? (" (" + year + ")") : "";
 				$('.title').html("Comparing " + dataText + " for " + major + isYear);
 			}
 
 			function setTwoData() {
-
 				function setSameData() {
 					var currentData = (c1State === 1 && c2State === 1 && year === year2 && major === major2) ? (major + " (" + year + ")") : (c1State === 1 && c2State === 1 && year === year2 && major !== major2) ? (major + " (" + year + ") & " + major2 + " (" + year2 + ")") : (c1State === 1 && c2State === 1 && year !== year2 && major === major2) ? (major + " (" + year + " & " + year2 + ")") : (c1State === 1 && c2State === 1 && year !== year2 && major !== major2) ? (major + " (" + year + ") & " + major2 + " (" + year2 + ")") : (c1State === 2 && c2State === 2 && major === major2) ? major : (major + " & " + major2);
 					$('.title').html("Comparing " + dataText + " for<br />" + currentData);
@@ -270,7 +267,6 @@ function showChart(e, chart, dataVal, data2Val, csvpath, csvpath2, dataText, dat
 	}
 
 	function loadTwo() {
-
 		function setOneData() {
 			var currentData = (c1State === 1 && c2State === 1 && year === year2 && major === major2) ? (major + " (" + year + ")") : (c1State === 1 && c2State === 1 && year === year2 && major !== major2) ? (major + " (" + year + ") & " + major2 + " (" + year2 + ")") : (c1State === 1 && c2State === 1 && year !== year2 && major === major2) ? (major + " (" + year + " & " + year2 + ")") : (c1State === 1 && c2State === 1 && year !== year2 && major !== major2) ? (major + " (" + year + ") & " + major2 + " (" + year2 + ")") : (c1State === 2 && c2State === 2 && major === major2) ? major : (major + " & " + major2);
 			$('.title').html("Comparing " + dataText + " for<br />" + currentData);
@@ -610,7 +606,6 @@ function showChart(e, chart, dataVal, data2Val, csvpath, csvpath2, dataText, dat
 				});
 
 				data = (thisChartData === "Graduation, Retention, and Loss Rates") ? formatYear(false, "in Major", "in College", "in University", "gim", "rim", "gic", "ric", "giu", "riu") : formatYear(true, "in Major", "in College", "in University", "pim", "pic", "piu");
-
 			}
 
 			function byMajor(d) {
@@ -621,7 +616,6 @@ function showChart(e, chart, dataVal, data2Val, csvpath, csvpath2, dataText, dat
 				});
 
 				data = (thisChartData === "Graduation Rates in Major") ? formatMajor("gim") : (thisChartData === "Graduation Rates in College") ? formatMajor("gic") : (thisChartData === "Graduation Rates in University") ? formatMajor("giu") : (thisChartData === "Retention Rates in Major") ? formatMajor("rim") : (thisChartData === "Retention Rates in College") ? formatMajor("ric") : (thisChartData === "Retention Rates in University") ? formatMajor("riu") : (thisChartData === "Persistence Rates in Major") ? formatMajor("pim") : (thisChartData === "Loss Rates in University") ? formatMajor("lost") : (thisChartData === "Persistence Rates in College") ? formatMajor("pic") : formatMajor("piu");
-
 			}
 
 			var setData = (thisChartState === 1) ? byYear(thisDataSet) : byMajor(thisDataSet), layers = stack(nest.entries(data));

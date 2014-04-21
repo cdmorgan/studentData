@@ -344,9 +344,7 @@ function chart(e, chartNum, c1State, c2State) {
 					invertedx = Math.round(invertedx);
 					var width = document.width / 2;
 					fullLength = (chartState === chart2State) ? true : false;
-					console.log(chartState);
-					console.log(chart2State);
-console.log(fullLength);
+					
 					if (fullLength) {
 						var val1 = [], val2 = [];
 						yPos = (mousex[0] > width) ? ((mousex[0] - 250) + "px") : ((mousex[0] + 100) + "px");
@@ -400,7 +398,6 @@ console.log(fullLength);
 
 						d3.select(this).classed("hover", true).attr("stroke", strokecolor).attr("stroke-width", "0.5px"), tooltip.html(text).style("visibility", "visible").style("top", xPos).style("left", yPos);
 					}
-					console.log(fullLength);
 				}).on("mouseout", function(d, i) {
 					svg.selectAll(".layer").transition().duration(250).attr("opacity", "1");
 					d3.select(this).classed("hover", false).attr("stroke-width", "0px"), tooltip.html("<p>" + d.key + "<br>" + pro + "</p>").style("visibility", "hidden"), tooltip2.html("<p>" + d.key + "<br>" + pro + "</p>").style("visibility", "hidden");
@@ -442,10 +439,7 @@ console.log(fullLength);
 
 				var vertical = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "19").style("width", "1px").style("height", "380px").style("top", "100px").style("bottom", "150px").style("left", "0px").style("background", "#fff");
 				var top, h;
-				console.log(chartState);
-				console.log(chart2State);
 				fullLength = (chartState === chart2State) ? true : false;
-				console.log(fullLength);
 
 				if (fullLength) {
 					top = 150;
@@ -468,7 +462,5 @@ console.log(fullLength);
 				});
 			});
 		}
-
 	}
-
 }

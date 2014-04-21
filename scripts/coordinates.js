@@ -1,10 +1,6 @@
 $(document).ready(function() {
 	$('#slickGrid-container').bind('contentchanged', function() {
 		alert('woo');
-		/*var contents = $('.grid-canvas')[0].children;
-		 $.each(contents, function() {
-		 this.children[0].textContent = schoolNames[this.children[0].textContent];
-		 });*/
 	});
 });
 
@@ -65,11 +61,12 @@ var schoolNames = {
 	"avg" : "All Institutions (Avg.)"
 };
 
-var thisData = [], target, prevTarget = null, prevData;
+var thisData = [], target, prevTarget = null, prevData, state = 0, prevState = 0, brushed = false;
+
 var setData = function(arr) {
 	thisData = arr;
 };
-var state = 0, prevState = 0, brushed = false;
+
 function loadVisualization(e) {
 	if (e) {
 		target = $(e.currentTarget).attr("id");
@@ -114,8 +111,6 @@ function loadVisualization(e) {
 		var dataPath = ("./data/" + showData + ".json");
 		d3.json(dataPath, function(dataSet) {
 			if (school1 === "all") {
-				//$('#textSearch').show();
-				//$('#searchBtn').show();
 				this.D3Vis(dataSet);
 				loadTableVis(dataSet);
 			} else {
@@ -174,16 +169,12 @@ function loadVisualization(e) {
 				$('#currentData').html(showDataProper + " - Comparison between " + "<span style='color:" + colors[school1] + "'>" + school1Proper + "</span> and <span style='color:" + colors[school2] + "'>" + school2Proper + "</span>");
 				$('#currentData').show();
 				$('#searchButton').show();
-				//$('#textSearch').show();
-				//$('#searchBtn').show();
 
 				this.D3Vis(data);
 				loadTableVis(data);
 			});
 		}
 	}
-
-	//$('#textSearch').val("");
 
 	this.D3Vis = function(data) {
 
@@ -199,41 +190,31 @@ function loadVisualization(e) {
 
 		var loadGraph = function(dataSet) {
 
-			// Extract the list of dimensions and create a scale for each.
 			x.domain( dimensions = d3.keys(dataSet[0]).filter(function(d) {
 				var index = 0;
 				return d !== "Name" && (dataSet.length === 2 ? d !== "Year of Entry" : d !== "Number in Class") && (y[d] = d3.scale.linear().domain(d3.extent(dataSet, function(p) {
-					//return (+p[d] === 0) ? 0 : (+p[d] < 55) ? 55 : (+p[d] < 65) ? 65 : (+p[d] < 75) ? 75 : (+p[d] < 80) ? 80 : (+p[d] < 100) ? 100 : p[d];
 					index++;
 					return (+p[d] > 100) ? +p[d] : ((index % 11) === 1) ? 0 : (dataSet.length !== 2 && (index % 11) === 9) ? 100 : (dataSet.length === 2 && (index % 2) === 0) ? 100 : +p[d];
-					//return +p[d];//original
-					//return (+p[d] === 0) ? 0 : (+p[d] + (3 - (+p[d]%3)));
 				})).range([h, 0]));
 			}));
 
-			// Add grey background lines for context.
 			background = svg.append("svg:g").attr("class", "background").selectAll("path").data(dataSet).enter().append("svg:path").attr("d", path);
 
-			// Add blue foreground lines for focus.
 			foreground = svg.append("svg:g").attr("class", "foreground").selectAll("path").data(dataSet).enter().append("svg:path").attr("d", path).attr("style", function(d) {
 				return "stroke:" + colors[d.Name];
 			});
 
-			// Add a group element for each dimension.
 			var g = svg.selectAll(".dimension").data(dimensions).enter().append("svg:g").attr("class", "dimension").attr("transform", function(d) {
 				return "translate(" + x(d) + ")";
 			});
 
-			// Add an axis and title.
 			g.append("svg:g").attr("class", "axis").each(function(d) {
 				d3.select(this).call(axis.scale(y[d]));
 			}).append("svg:text").attr("text-anchor", "middle").attr("y", -9).text(String);
 
-			// Add and store a brush for each axis.
 			g.append("svg:g").attr("class", "brush").each(function(d) {
 				d3.select(this).call(y[d].brush = d3.svg.brush().y(y[d]).on("brush", brush).on("brushend", brushend));
 			}).selectAll("rect").attr("x", -8).attr("width", 16);
-
 		};
 		if ( typeof data === "object") {
 			loadGraph(data);
@@ -267,14 +248,12 @@ function loadVisualization(e) {
 			loadTableVis(brushData);
 		}
 
-		// Returns the path for a given data point.
 		function path(d) {
 			return line(dimensions.map(function(p) {
 				return [x(p), y[p](d[p])];
 			}));
 		}
 
-		// Handles a brush event, toggling the display of foreground lines.
 		function brush() {
 			var actives = dimensions.filter(function(p) {
 				return !y[p].brush.empty();
@@ -288,7 +267,6 @@ function loadVisualization(e) {
 				}) ? ("stroke:" + colors[d.Name]) : "display:none;";
 			});
 		}
-
 	};
 }
 
@@ -343,29 +321,6 @@ function loadTableVis(dataSet) {
 
 	$("#slickGrid-container").addClass("border");
 
-	/*grid.onSort.subscribe(function(e, args) {
-	 var cols = args.sortCols;
-
-	 dataSet.sort(function(dataRow1, dataRow2) {
-	 for (var i = 0, l = cols.length; i < l; i++) {
-	 var field = cols[i].sortCol.field;
-	 var sign = cols[i].sortAsc ? 1 : -1;
-	 var value1 = (dataRow1[field] === Number(dataRow1[field])) ? parseFloat(dataRow1[field]) : dataRow1[field];
-	 var value2 = (dataRow2[field] === Number(dataRow2[field])) ? parseFloat(dataRow2[field]) : dataRow2[field];
-	 var result = (value1 === value2 ? 0 : (value1 > value2 ? 1 : -1)) * sign;
-	 if (result !== 0) {
-	 return result;
-	 }
-	 }
-	 return 0;
-	 });
-	 grid.invalidate();
-	 grid.render();
-	 setData(dataSet);
-	 var load = new loadVisualization();
-	 load.D3Vis(dataSet);
-	 });*/
-
 	grid.onMouseLeave.subscribe(function(e, args) {
 		var node = $(".foreground").children();
 		$(e.currentTarget.parentElement).removeClass("hover");
@@ -383,7 +338,6 @@ function loadTableVis(dataSet) {
 				});
 			});
 		}
-
 	});
 
 	grid.onMouseEnter.subscribe(function(e, args) {
@@ -415,7 +369,6 @@ function loadTableVis(dataSet) {
 				return "stroke:" + colors[stroke];
 			});
 		}
-
 	});
 }
 

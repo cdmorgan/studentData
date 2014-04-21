@@ -416,7 +416,6 @@ function printerPage() {
 	$.each(dataSet, function() {
 		var contents = "";
 		for (var i in this) {
-			console.log(i);
 			if (i !== "row") {
 				if (i == "Name") {
 					contents += ("<td>" + opener.schoolNames[this[i]] + "</td>");

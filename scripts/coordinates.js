@@ -75,24 +75,19 @@ function loadVisualization(e) {
 	brushed = false;
 	state = (target === "revertButton") ? prevState : (target === "showButton") ? 1 : (target === "compareButton") ? 2 : (prevState === 1) ? 3 : 4;
 	prevState = (state === 4) ? 2 : (state === 3) ? 1 : 0;
-
-	var selection1 = document.getElementById("selectSchool1");
-	var school1 = selection1.options[selection1.selectedIndex].value;
-	var school1Proper = selection1.options[selection1.selectedIndex].text;
-
-	var chosenData = document.getElementById("chooseData");
-	var showData = chosenData.options[chosenData.selectedIndex].value;
-	var showDataProper = chosenData.options[chosenData.selectedIndex].text;
-
-	var selection2 = document.getElementById("selectSchool2");
-	var school2 = selection2.options[selection2.selectedIndex].value;
-	var school2Proper = selection2.options[selection2.selectedIndex].text;
+	
+	var school1 = $('#selectSchool1 option:selected').val(),
+		school1Proper = $('#selectSchool1 option:selected').text(),
+		
+		showData = $('#chooseData option:selected').val(),
+		showDataProper = $('#chooseData option:selected').text(),
+		
+		school2 = $('#selectSchool2 option:selected').val(),
+		school2Proper = $('#selectSchool2 option:selected').text();
 
 	function clearData() {
-		$('#d3-container').empty();
-		$('#slickGrid-container').empty();
-		$('#currentData').hide();
-		$('#searchButton').hide();
+		$('#d3-container, #slickGrid-container').empty();
+		$('#currentData, #searchButton').hide();
 		$('#slickGrid-container').removeClass('border');
 	}
 
@@ -101,11 +96,9 @@ function loadVisualization(e) {
 		alert("Choose Data Set.");
 	} else if (state === 1 || prevState === 3) {
 		$('#currentData').html(showDataProper + " of " + school1Proper);
-		$('#currentData').show();
+		$('#currentData, #searchButton').show();
 		$('#searchButton').show();
-		$('#revertButton').hide();
-		$('#textSearch').hide();
-		$('#searchBtn').hide();
+		$('#revertButton, #textSearch, #searchBtn').hide();
 		prevState = state;
 
 		var dataPath = ("./data/" + showData + ".json");
@@ -127,15 +120,13 @@ function loadVisualization(e) {
 	} else if (state === 3) {
 		$('#currentData').append(" (" + $("#textSearch").val() + ")");
 		$('#revertButton').show();
-		$('#textSearch').hide();
-		$('#searchBtn').hide();
+		$('#textSearch, #searchBtn').hide();
 		this.D3Vis(thisData);
 		loadTableVis(thisData);
 	} else if (state === 4) {
 		$('#currentData').append(" (" + $("#textSearch").val() + ")");
 		$('#revertButton').show();
-		$('#textSearch').hide();
-		$('#searchBtn').hide();
+		$('#textSearch, #searchBtn').hide();
 		var dataSet = [];
 		for (var i in thisData) {
 			if (thisData[i].Name === school1 || thisData[i].Name === school2) {
@@ -167,8 +158,7 @@ function loadVisualization(e) {
 					}
 				}
 				$('#currentData').html(showDataProper + " - Comparison between " + "<span style='color:" + colors[school1] + "'>" + school1Proper + "</span> and <span style='color:" + colors[school2] + "'>" + school2Proper + "</span>");
-				$('#currentData').show();
-				$('#searchButton').show();
+				$('#currentData, #searchButton').show();
 
 				this.D3Vis(data);
 				loadTableVis(data);

@@ -41,24 +41,13 @@ function chart(e, chartNum, c1State, c2State) {
 
 
 	$(".title").empty();
-
-	var dataSet = document.getElementById('dataSet');
-	dataSet = dataSet.options[dataSet.selectedIndex].value;
-
-	var dataSet2 = document.getElementById('dataSet2');
-	dataSet2 = dataSet2.options[dataSet2.selectedIndex].value;
-
-	var school = document.getElementById('selectSchool');
-	school = school.options[school.selectedIndex].value;
-
-	var school2 = document.getElementById('selectSchool2');
-	school2 = school2.options[school2.selectedIndex].value;
-
-	var year = document.getElementById('selectYear');
-	year = year.options[year.selectedIndex].value;
-
-	var year2 = document.getElementById('selectYear2');
-	year2 = year2.options[year2.selectedIndex].value;
+	
+	var dataSet = $('#dataSet option:selected').val(),
+		dataSet2 = $('#dataSet2 option:selected').val(),
+		school = $('#selectSchool option:selected').val(),
+		school2 = $('#selectSchool2 option:selected').val(),
+		year = $('#selectYear option:selected').val(),
+		year2 = $('#selectYear2 option:selected').val();
 
 	(chartState !== 0 && chart2State !== 0) ? checkBoth() : checkOne();
 
@@ -74,25 +63,15 @@ function chart(e, chartNum, c1State, c2State) {
 
 		var csvpath, currentData, title, titleOne, titleTwo;
 
-		var data = document.getElementById('dataSet');
-
-		var data2 = document.getElementById('dataSet2');
-
-		var schoolOne = document.getElementById('selectSchool');
-
-		var schoolTwo = document.getElementById('selectSchool2');
-
-		var yr = document.getElementById('selectYear');
-
-		var yr2 = document.getElementById('selectYear2');
+		var data, data2, schoolOne, schoolTwo, yr, yr2;
 
 		function getData() {
-			data = data.options[data.selectedIndex].text;
-			data2 = data2.options[data2.selectedIndex].text;
-			schoolOne = schoolOne.options[schoolOne.selectedIndex].text;
-			schoolTwo = schoolTwo.options[schoolTwo.selectedIndex].text;
-			yr = yr.options[yr.selectedIndex].text;
-			yr2 = yr2.options[yr2.selectedIndex].text;
+			data = $('#dataSet option:selected').text(),
+			data2 = $('#dataSet2 option:selected').text(),
+			schoolOne = $('#selectSchool option:selected').text(),
+			schoolTwo = $('#selectSchool2 option:selected').text(),
+			yr = $('#selectYear option:selected').text(),
+			yr2 = $('#selectYear2 option:selected').text();
 		}
 
 
@@ -103,8 +82,7 @@ function chart(e, chartNum, c1State, c2State) {
 
 			function firstLoad() {
 				csvpath = ("./data/" + dataSet + ".csv");
-				currentData = document.getElementById('dataSet');
-				currentData = currentData.options[currentData.selectedIndex].text;
+				currentData = $('#dataSet option:selected').text();
 				title = (chartState === 1) ? year : schools[school];
 				$('.title').html("Comparing " + currentData + " for " + title);
 			}

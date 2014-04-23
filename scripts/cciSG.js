@@ -9,21 +9,17 @@ var entities = {
 function chart(e, chartNum, thisState, c1State, c2State) {
 	var target = $(e.currentTarget).attr("id");
 
-	var dataSet = document.getElementById('dataSet');
-	var dataSetVal = dataSet.options[dataSet.selectedIndex].value;
-	var dataSetText = dataSet.options[dataSet.selectedIndex].text;
-
-	var dataSet2 = document.getElementById('dataSet2');
-	var dataSet2Val = dataSet2.options[dataSet2.selectedIndex].value;
-	var dataSet2Text = dataSet2.options[dataSet2.selectedIndex].text;
-
-	var entity = document.getElementById('selectEntity');
-	var entityVal = entity.options[entity.selectedIndex].value;
-	var entityText = entity.options[entity.selectedIndex].text;
-
-	var entity2 = document.getElementById('selectEntity2');
-	var entity2Val = entity2.options[entity2.selectedIndex].value;
-	var entity2Text = entity2.options[entity2.selectedIndex].text;
+	var dataSetVal = $('#dataSet option:selected').val(),
+		dataSetText = $('#dataSet option:selected').text(),
+		
+		dataSet2Val = $('#dataSet2 option:selected').val(),
+		dataSet2Text = $('#dataSet2 option:selected').text(),
+		
+		entityVal = $('#selectEntity option:selected').val(),
+		entityText = $('#selectEntity option:selected').text(),
+		
+		entity2Val = $('#selectEntity2 option:selected').val(),
+		entity2Text = $('#selectEntity2 option:selected').text();
 
 	state = (target === "yearBtn" || target === "entityBtn") ? 0 : (target === "yearBtn2" || target === "entityBtn2") ? 1 : thisState;
 	chartState = ((dataSetVal !== dataSet2Val) && (entityVal === "cci" && entity2Val === "cci")) ? 0 : (target === "yearBtn" || target === "yearBtn2") ? 1 : (target === "entityBtn" || target === "entityBtn2") ? 2 : (chartState === 0) ? 0 : c1State;

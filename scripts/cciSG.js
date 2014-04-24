@@ -51,13 +51,13 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 	(chartState !== 0 && chart2State !== 0) ? checkBoth() : checkOne();
 
 	function loadCSV() {
-		var csvpath, currentData, title, thisTitle;
-		var dataPath = (dataSetVal === "grads" && entityVal === "cci") ? "cciGrads" : (dataSetVal === "retn" && entityVal === "cci") ? "cciRetn" : (dataSetVal === "grads" && entityVal === "cs") ? "csGrads" : (dataSetVal === "retn" && entityVal === "cs") ? "csRetn" : (dataSetVal === "grads" && entityVal === "sis") ? "sisGrads" : "sisRetn";
-		var firstEntity = entities[entityVal];
+		var csvpath, currentData, title, thisTitle,
+			dataPath = (dataSetVal === "grads" && entityVal === "cci") ? "cciGrads" : (dataSetVal === "retn" && entityVal === "cci") ? "cciRetn" : (dataSetVal === "grads" && entityVal === "cs") ? "csGrads" : (dataSetVal === "retn" && entityVal === "cs") ? "csRetn" : (dataSetVal === "grads" && entityVal === "sis") ? "sisGrads" : "sisRetn",
+			firstEntity = entities[entityVal];
 
 		if (chart2State !== 0) {
-			var dataPath2 = (dataSet2Val === "grads" && entity2Val === "cci") ? "cciGrads" : (dataSet2Val === "retn" && entity2Val === "cci") ? "cciRetn" : (dataSet2Val === "grads" && entity2Val === "cs") ? "csGrads" : (dataSet2Val === "retn" && entity2Val === "cs") ? "csRetn" : (dataSet2Val === "grads" && entity2Val === "sis") ? "sisGrads" : "sisRetn";
-			var secondEntity = entities[entity2Val];
+			var dataPath2 = (dataSet2Val === "grads" && entity2Val === "cci") ? "cciGrads" : (dataSet2Val === "retn" && entity2Val === "cci") ? "cciRetn" : (dataSet2Val === "grads" && entity2Val === "cs") ? "csGrads" : (dataSet2Val === "retn" && entity2Val === "cs") ? "csRetn" : (dataSet2Val === "grads" && entity2Val === "sis") ? "sisGrads" : "sisRetn",
+				secondEntity = entities[entity2Val];
 		}
 
 		function loadOne() {
@@ -177,23 +177,18 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 				left : 30
 			};
 
-			var width = document.body.clientWidth - margin.left - margin.right;
-			var height = 400 - margin.top - margin.bottom;
-			var tooltip = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px");
-			var tooltip2 = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px");
-			var tooltip3 = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px");
+			var width = document.body.clientWidth - margin.left - margin.right,
+				height = 400 - margin.top - margin.bottom,
+				tooltip = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px"),
+				tooltip2 = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px"),
+				tooltip3 = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px");
 
-			var x = d3.scale.linear().range([0, width]);
-
-			var y = d3.scale.linear().range([height - 10, 0]);
-
-			var z = d3.scale.ordinal().range(colorrange);
-
-			var xAxis = d3.svg.axis().scale(x).orient("bottom").ticks(10);
-
-			var yAxis = d3.svg.axis().scale(y);
-
-			var yAxisr = d3.svg.axis().scale(y);
+			var x = d3.scale.linear().range([0, width]),
+				y = d3.scale.linear().range([height - 10, 0]),
+				z = d3.scale.ordinal().range(colorrange),
+				xAxis = d3.svg.axis().scale(x).orient("bottom").ticks(10),
+				yAxis = d3.svg.axis().scale(y),
+				yAxisr = d3.svg.axis().scale(y);
 
 			var stack = d3.layout.stack().offset("silhouette").values(function(d) {
 				return d.values;
@@ -380,8 +375,8 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 						xPos = (mousex[1] < 50) ? 50 : ((mousex[1] + 100) + "px");
 						xPos2 = (mousex[1] < 50) ? 50 : ((mousex[1] + 550) + "px");
 						yPos = (mousex[0] > width) ? ((mousex[0] - 250) + "px") : ((mousex[0] + 100) + "px");
-						var action = (dataSetVal === "grads") ? "Graduated" : (dataSetVal === "retn") ? "Retained" : "Persisted";
-						var action2 = (dataSet2Val === "grads") ? "Graduated" : (dataSet2Val === "retn") ? "Retained" : "Persisted";
+						var action = (dataSetVal === "grads") ? "Graduated" : (dataSetVal === "retn") ? "Retained" : "Persisted",
+							action2 = (dataSet2Val === "grads") ? "Graduated" : (dataSet2Val === "retn") ? "Retained" : "Persisted";
 						text = "<p>" + entities[entityVal] + "<br /><br />Incoming freshmen for " + invertedx + " -  " + incoming + "<br /><br />" + pro + " (" + howMany + ") " + action + " with" + d.key + "</p>";
 						text2 = "<p>" + entities[entity2Val] + "<br /><br />Incoming freshmen for " + invertedx + " -  " + incoming2 + "<br /><br />" + pro2 + " (" + howMany2 + ") " + action2 + " with" + d.key + "</p>";
 						if (pro === undefined) {
@@ -396,8 +391,8 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 						xPos = (mousex[1] < 50) ? 50 : ((mousex[1] + 150) + "px");
 						xPos2 = (mousex[1] < 50) ? 50 : ((mousex[1] + 600) + "px");
 						yPos = (mousex[0] > width) ? ((mousex[0] - 250) + "px") : ((mousex[0] + 100) + "px");
-						var action = (dataSetVal === "grads") ? "Graduated" : (dataSetVal === "retn") ? "Retained" : "Persisted";
-						var action2 = (dataSet2Val === "grads") ? "Graduated" : (dataSet2Val === "retn") ? "Retained" : "Persisted";
+						var action = (dataSetVal === "grads") ? "Graduated" : (dataSetVal === "retn") ? "Retained" : "Persisted",
+							action2 = (dataSet2Val === "grads") ? "Graduated" : (dataSet2Val === "retn") ? "Retained" : "Persisted";
 						where = "within College";
 						where2 = "within University";
 						text = "<p>" + entities[entityVal] + "<br /><br />Incoming freshmen for " + invertedx + " -  " + incoming2 + "<br /><br />" + pro2 + " (" + howMany2 + ") " + action + " " + where + "</p>";
@@ -421,8 +416,8 @@ function chart(e, chartNum, thisState, c1State, c2State) {
 					d3.select(this).classed("hover", false).attr("stroke-width", "0px"), tooltip.html("<p>" + d.key + "<br></p>").style("visibility", "hidden"), tooltip2.html("<p>" + d.key + "<br></p>").style("visibility", "hidden"), tooltip3.html("<p>" + d.key + "<br></p>").style("visibility", "hidden");
 				});
 
-				var vertical = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "19").style("width", "1px").style("height", "380px").style("top", "100px").style("bottom", "150px").style("left", "0px").style("background", "#fff");
-				var top, h;
+				var vertical = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "19").style("width", "1px").style("height", "380px").style("top", "100px").style("bottom", "150px").style("left", "0px").style("background", "#fff"),
+					top, h;
 
 				if (chartState === 0 && chart3State === 2) {
 					top = 230;

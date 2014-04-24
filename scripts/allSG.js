@@ -1,5 +1,4 @@
-var colorrange = [];
-var state = null, chartState = 0, chart2State = 0, chart1Data, chart2Data;
+var colorrange = [], state = null, chartState = 0, chart2State = 0, chart1Data, chart2Data;
 var schools = {
 	"asheville" : "UNC Asheville",
 	"ch" : "UNC Chapel Hill",
@@ -61,9 +60,7 @@ function chart(e, chartNum, c1State, c2State) {
 
 	function loadCSV() {
 
-		var csvpath, currentData, title, titleOne, titleTwo;
-
-		var data, data2, schoolOne, schoolTwo, yr, yr2;
+		var csvpath, currentData, title, titleOne, titleTwo, data, data2, schoolOne, schoolTwo, yr, yr2;
 
 		function getData() {
 			data = $('#dataSet option:selected').text(),
@@ -213,22 +210,17 @@ function chart(e, chartNum, c1State, c2State) {
 				left : 30
 			};
 
-			var width = document.body.clientWidth - margin.left - margin.right;
-			var height = 400 - margin.top - margin.bottom;
-			var tooltip = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px");
-			var tooltip2 = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px");
+			var width = document.body.clientWidth - margin.left - margin.right,
+				height = 400 - margin.top - margin.bottom,
+				tooltip = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px"),
+				tooltip2 = d3.select(thisChart).append("div").attr("class", "remove").style("position", "absolute").style("z-index", "20").style("visibility", "hidden").style("top", "115px").style("left", "55px");
 
-			var x = d3.scale.linear().range([0, width]);
-
-			var y = d3.scale.linear().range([height - 10, 0]);
-
-			var z = d3.scale.ordinal().range(colorrange);
-
-			var xAxis = d3.svg.axis().scale(x).orient("bottom").ticks(10);
-
-			var yAxis = d3.svg.axis().scale(y);
-
-			var yAxisr = d3.svg.axis().scale(y);
+			var x = d3.scale.linear().range([0, width]),
+				y = d3.scale.linear().range([height - 10, 0]),
+				z = d3.scale.ordinal().range(colorrange),
+				xAxis = d3.svg.axis().scale(x).orient("bottom").ticks(10),
+				yAxis = d3.svg.axis().scale(y),
+				yAxisr = d3.svg.axis().scale(y);
 
 			var stack = d3.layout.stack().offset("silhouette").values(function(d) {
 				return d.values;

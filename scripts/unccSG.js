@@ -4,15 +4,15 @@ $(function() {
 	$('title').html("UNCC Data");
 
 	function rows(num) {
-		var btnId = (num === 1) ? "visualizeBtn" : "compareBtn";
-		var btnTxt = (num === 1) ? "Visualize" : "Compare";
-		var row = "<td width='265px'><select size='1' id='selectCollege" + num + "'><option value='default' selected='selected'>Select College</option><option value='clas'>College of Liberal Arts & Sciences</option><option value='cci'>College of Computing & Informatics</option><option value='coaa'>College of Arts & Architecture</option><option value='coe'>College of Engineering</option></select></td><td width='265px'><select size='1' id='selectMajor" + num + "' style='visibility: hidden'></select></td><td width='285px'><select size='1' id='selectData" + num + "' style='visibility: hidden'></select></td><td id='selectBox" + num + "' width='200px'></td><td width='85px'><button id='" + btnId + "' size='1' style='visibility: hidden'>" + btnTxt + "</button></td>";
+		var btnId = (num === 1) ? "visualizeBtn" : "compareBtn",
+			btnTxt = (num === 1) ? "Visualize" : "Compare",
+			row = "<td width='265px'><select size='1' id='selectCollege" + num + "'><option value='default' selected='selected'>Select College</option><option value='clas'>College of Liberal Arts & Sciences</option><option value='cci'>College of Computing & Informatics</option><option value='coaa'>College of Arts & Architecture</option><option value='coe'>College of Engineering</option></select></td><td width='265px'><select size='1' id='selectMajor" + num + "' style='visibility: hidden'></select></td><td width='285px'><select size='1' id='selectData" + num + "' style='visibility: hidden'></select></td><td id='selectBox" + num + "' width='200px'></td><td width='85px'><button id='" + btnId + "' size='1' style='visibility: hidden'>" + btnTxt + "</button></td>";
 		return row;
 	}
 
 	function charts(num) {
-		var chartNum = (num === 1) ? "" : num;
-		var chart = "<br /><br /><div class='chart" + chartNum + "Title center'></div><br /><span class='chart" + chartNum + "Legend'></span><div class='chart" + chartNum + "'></div>";
+		var chartNum = (num === 1) ? "" : num,
+			chart = "<br /><br /><div class='chart" + chartNum + "Title center'></div><br /><span class='chart" + chartNum + "Legend'></span><div class='chart" + chartNum + "'></div>";
 		return chart;
 	}
 

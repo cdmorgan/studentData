@@ -170,13 +170,10 @@ function loadVisualization(e) {
 
 		$('#d3-container').empty();
 
-		var m = [30, 10, 10, 10], w = 960 - m[1] - m[3], h = 500 - m[0] - m[2];
-
-		var x = d3.scale.ordinal().rangePoints([0, w], 1), y = {};
-
-		var line = d3.svg.line(), axis = d3.svg.axis().orient("left"), background, foreground;
-
-		var svg = d3.select("#d3-container").append("svg:svg").attr("width", w + m[1] + m[3]).attr("height", h + m[0] + m[2]).append("svg:g").attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+		var m = [30, 10, 10, 10], w = 960 - m[1] - m[3], h = 500 - m[0] - m[2],
+			x = d3.scale.ordinal().rangePoints([0, w], 1), y = {},
+			line = d3.svg.line(), axis = d3.svg.axis().orient("left"), background, foreground,
+			svg = d3.select("#d3-container").append("svg:svg").attr("width", w + m[1] + m[3]).attr("height", h + m[0] + m[2]).append("svg:g").attr("transform", "translate(" + m[3] + "," + m[0] + ")");
 
 		var loadGraph = function(dataSet) {
 
@@ -269,9 +266,8 @@ function loadTableVis(dataSet) {
 		dimensions.splice(len, 1);
 	}
 
-	var grid;
-
-	var options = {
+	var grid,
+		options = {
 		enableCellNavigation : false,
 		enableColumnReorder : false
 	};
@@ -331,9 +327,9 @@ function loadTableVis(dataSet) {
 	});
 
 	grid.onMouseEnter.subscribe(function(e, args) {
-		var node = $(".foreground").children();
-		var canvas = $('.grid-canvas').children();
-		var cell = args.grid.getCellFromEvent(e);
+		var node = $(".foreground").children(),
+			canvas = $('.grid-canvas').children(),
+			cell = args.grid.getCellFromEvent(e);
 
 		$.each(canvas, function() {
 			$(this).removeClass("hover");
@@ -363,8 +359,8 @@ function loadTableVis(dataSet) {
 }
 
 function performSearch(data) {
-	var fewer = [];
-	var val = Number($("#textSearch").val());
+	var fewer = [],
+		val = Number($("#textSearch").val());
 
 	$.each(data, function() {
 		if (this["Year of Entry"] === val) {
